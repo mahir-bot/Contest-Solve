@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF73948703": {
+    "contest_id": 935,
+    "language": "GNU C11",
+    "path": "codeforces\\935\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fafa and his Company",
+    "problem_url": "https://codeforces.com/contest/935/problem/A",
+    "submission_id": "CF73948703",
+    "submission_url": "https://codeforces.com/contest/935/submission/73948703",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/22/2020 15:46"
+  },
   "CF73951527": {
     "contest_id": 1097,
     "language": "GNU C11",
