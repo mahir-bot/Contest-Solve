@@ -5009,6 +5009,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF79468330": {
+    "contest_id": 34,
+    "language": "GNU C++14",
+    "path": "codeforces\\34\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Reconnaissance 2",
+    "problem_url": "https://codeforces.com/contest/34/problem/A",
+    "submission_id": "CF79468330",
+    "submission_url": "https://codeforces.com/contest/34/submission/79468330",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/09/2020 19:34"
+  },
   "CF79471343": {
     "contest_id": 32,
     "language": "GNU C++14",
