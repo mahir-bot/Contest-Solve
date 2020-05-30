@@ -2813,6 +2813,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF81977638": {
+    "contest_id": 99,
+    "language": "GNU C++14",
+    "path": "codeforces\\99\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Help Far Away Kingdom",
+    "problem_url": "https://codeforces.com/contest/99/problem/A",
+    "submission_id": "CF81977638",
+    "submission_url": "https://codeforces.com/contest/99/submission/81977638",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/30/2020 20:54"
+  },
   "CF81980790": {
     "contest_id": 702,
     "language": "GNU C++14",
