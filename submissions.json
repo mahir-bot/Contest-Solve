@@ -2813,6 +2813,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF82045232": {
+    "contest_id": 701,
+    "language": "GNU C++14",
+    "path": "codeforces\\701\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/contest/701/problem/A",
+    "submission_id": "CF82045232",
+    "submission_url": "https://codeforces.com/contest/701/submission/82045232",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/31/2020 20:01"
+  },
   "CF82045606": {
     "contest_id": 1311,
     "language": "GNU C++14",
