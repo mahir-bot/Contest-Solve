@@ -2813,6 +2813,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF82263464": {
+    "contest_id": 847,
+    "language": "GNU C++14",
+    "path": "codeforces\\847\\M.cpp",
+    "platform": "Codeforces",
+    "problem_index": "M",
+    "problem_name": "Weather Tomorrow",
+    "problem_url": "https://codeforces.com/contest/847/problem/M",
+    "submission_id": "CF82263464",
+    "submission_url": "https://codeforces.com/contest/847/submission/82263464",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/02/2020 08:18"
+  },
   "CF82263882": {
     "contest_id": 137,
     "language": "GNU C++14",
