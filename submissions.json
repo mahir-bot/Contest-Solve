@@ -2813,6 +2813,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF82351862": {
+    "contest_id": 886,
+    "language": "GNU C++14",
+    "path": "codeforces\\886\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "ACM ICPC",
+    "problem_url": "https://codeforces.com/contest/886/problem/A",
+    "submission_id": "CF82351862",
+    "submission_url": "https://codeforces.com/contest/886/submission/82351862",
+    "tags": [
+      "brute force",
+      "*1000"
+    ],
+    "timestamp": "Jun/03/2020 07:11"
+  },
   "CF82353677": {
     "contest_id": 864,
     "language": "GNU C++14",
