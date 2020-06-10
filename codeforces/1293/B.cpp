@@ -10,5 +10,5 @@ int main()
   {
       y+=1.0/i;
   }
-  cout<<fixed<<setprecision(12)<<y;
+  printf("%.12lf",y);
 }
