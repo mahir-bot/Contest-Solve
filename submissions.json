@@ -2813,6 +2813,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF83761021": {
+    "contest_id": 1363,
+    "language": "GNU C++14",
+    "path": "codeforces\\1363\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Odd Selection",
+    "problem_url": "https://codeforces.com/contest/1363/problem/A",
+    "submission_id": "CF83761021",
+    "submission_url": "https://codeforces.com/contest/1363/submission/83761021",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jun/14/2020 21:24"
+  },
   "CF83842044": {
     "contest_id": 1362,
     "language": "GNU C++14",
