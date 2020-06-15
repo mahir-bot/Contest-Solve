@@ -2813,6 +2813,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF83867210": {
+    "contest_id": 1331,
+    "language": "GNU C++14",
+    "path": "codeforces\\1331\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Limericks",
+    "problem_url": "https://codeforces.com/contest/1331/problem/B",
+    "submission_id": "CF83867210",
+    "submission_url": "https://codeforces.com/contest/1331/submission/83867210",
+    "tags": [
+      "*special problem",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jun/15/2020 23:52"
+  },
   "CF83885165": {
     "contest_id": 6,
     "language": "GNU C++14",
