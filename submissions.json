@@ -1,4 +1,20 @@
 {
+  "CF122361432": {
+    "contest_id": 1371,
+    "language": "GNU C++17",
+    "path": "codeforces\\1371\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Magical Calendar",
+    "problem_url": "https://codeforces.com/contest/1371/problem/B",
+    "submission_id": "CF122361432",
+    "submission_url": "https://codeforces.com/contest/1371/submission/122361432",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jul/13/2021 21:57"
+  },
   "CF122503837": {
     "contest_id": 1363,
     "language": "GNU C++17",
