@@ -1,4 +1,20 @@
 {
+  "AC24415756": {
+    "contest_id": "abc138",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc138\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Ki",
+    "problem_url": "https://atcoder.jp/contests/abc138/tasks/abc138_d",
+    "submission_id": "AC24415756",
+    "submission_url": "https://atcoder.jp/contests/abc138/submissions/24415756",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/21/2021 00:48"
+  },
   "AC28831167": {
     "contest_id": "arc087",
     "language": "C++ (GCC 9.2.1)",
