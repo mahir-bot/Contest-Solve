@@ -1,4 +1,22 @@
 {
+  "CF124025527": {
+    "contest_id": 1370,
+    "language": "GNU C++17",
+    "path": "codeforces\\1370\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Number Game",
+    "problem_url": "https://codeforces.com/contest/1370/problem/C",
+    "submission_id": "CF124025527",
+    "submission_url": "https://codeforces.com/contest/1370/submission/124025527",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jul/28/2021 17:25"
+  },
   "CF124110162": {
     "contest_id": 1352,
     "language": "GNU C++17",
