@@ -1,4 +1,21 @@
 {
+  "CF126346227": {
+    "contest_id": 1560,
+    "language": "GNU C++17",
+    "path": "codeforces\\1560\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Infinity Table",
+    "problem_url": "https://codeforces.com/contest/1560/problem/C",
+    "submission_id": "CF126346227",
+    "submission_url": "https://codeforces.com/contest/1560/submission/126346227",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/18/2021 22:09"
+  },
   "CF126412707": {
     "contest_id": 486,
     "language": "GNU C++17",
