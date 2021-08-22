@@ -1,4 +1,22 @@
 {
+  "CF126665710": {
+    "contest_id": 387,
+    "language": "GNU C++17",
+    "path": "codeforces\\387\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "George and Round",
+    "problem_url": "https://codeforces.com/contest/387/problem/B",
+    "submission_id": "CF126665710",
+    "submission_url": "https://codeforces.com/contest/387/submission/126665710",
+    "tags": [
+      "brute force",
+      "greedy",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Aug/22/2021 11:18"
+  },
   "CF126668318": {
     "contest_id": 365,
     "language": "GNU C++17",
