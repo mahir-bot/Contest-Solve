@@ -1,4 +1,21 @@
 {
+  "CF127136103": {
+    "contest_id": 155,
+    "language": "GNU C++17",
+    "path": "codeforces\\155\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Combination",
+    "problem_url": "https://codeforces.com/contest/155/problem/B",
+    "submission_id": "CF127136103",
+    "submission_url": "https://codeforces.com/contest/155/submission/127136103",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Aug/27/2021 00:59"
+  },
   "CF127176397": {
     "contest_id": 352,
     "language": "GNU C++17",
