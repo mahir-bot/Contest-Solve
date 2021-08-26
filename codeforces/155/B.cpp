@@ -57,14 +57,12 @@ int main()
 {
     int x;
     cin >> x;
-    vip v;
+    pii v[x];
     for (int i = 0; i < x; i++)
     {
-        int a, b;
-        cin >> a >> b;
-        v.pb({a, b});
+        cin >> v[i].first >> v[i].second;
     }
-    sort(v.begin(), v.end(), cmp);
+    sort(v, v + x, cmp);
     int ans = 0;
     int cnt = 1;
     for (int i = 0; i < x; i++)
