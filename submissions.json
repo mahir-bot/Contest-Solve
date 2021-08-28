@@ -1,4 +1,21 @@
 {
+  "CF127279386": {
+    "contest_id": 366,
+    "language": "GNU C++17",
+    "path": "codeforces\\366\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dima and To-do List",
+    "problem_url": "https://codeforces.com/contest/366/problem/B",
+    "submission_id": "CF127279386",
+    "submission_url": "https://codeforces.com/contest/366/submission/127279386",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Aug/28/2021 23:09"
+  },
   "CF127286634": {
     "contest_id": 58,
     "language": "GNU C++17",
