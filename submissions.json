@@ -1,4 +1,22 @@
 {
+  "CF127504472": {
+    "contest_id": 416,
+    "language": "GNU C++17",
+    "path": "codeforces\\416\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Art Union",
+    "problem_url": "https://codeforces.com/contest/416/problem/B",
+    "submission_id": "CF127504472",
+    "submission_url": "https://codeforces.com/contest/416/submission/127504472",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Aug/31/2021 14:07"
+  },
   "CF127576365": {
     "contest_id": 1556,
     "language": "GNU C++17",
