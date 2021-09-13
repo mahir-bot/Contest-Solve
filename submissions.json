@@ -1,4 +1,22 @@
 {
+  "CF128700549": {
+    "contest_id": 1566,
+    "language": "GNU C++17",
+    "path": "codeforces\\1566\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Median Maximization",
+    "problem_url": "https://codeforces.com/contest/1566/problem/A",
+    "submission_id": "CF128700549",
+    "submission_url": "https://codeforces.com/contest/1566/submission/128700549",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/13/2021 12:44"
+  },
   "CF154582696": {
     "contest_id": 612,
     "language": "GNU C++17",
