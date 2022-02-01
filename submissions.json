@@ -1,4 +1,20 @@
 {
+  "AC28997496": {
+    "contest_id": "abc208",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc208\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Rolling Dice",
+    "problem_url": "https://atcoder.jp/contests/abc208/tasks/abc208_a",
+    "submission_id": "AC28997496",
+    "submission_url": "https://atcoder.jp/contests/abc208/submissions/28997496",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Feb/01/2022 23:45"
+  },
   "AC29047572": {
     "contest_id": "abc173",
     "language": "C++ (GCC 9.2.1)",
