@@ -1403,6 +1403,23 @@
     ],
     "timestamp": "Sep/13/2021 12:44"
   },
+  "CF146246956": {
+    "contest_id": 545,
+    "language": "GNU C++17",
+    "path": "codeforces\\545\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Woodcutters",
+    "problem_url": "https://codeforces.com/contest/545/problem/C",
+    "submission_id": "CF146246956",
+    "submission_url": "https://codeforces.com/contest/545/submission/146246956",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Feb/13/2022 20:30"
+  },
   "CF146270792": {
     "contest_id": 515,
     "language": "GNU C++17",
