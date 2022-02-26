@@ -87,49 +87,27 @@ string toBinary(ll decimal)
 
 int z = 1;
 
-bool ok[mx];
-pii v[4000];
-void sieve()
-{
-    ok[1] = true;
-    for (int i = 4; i < 4000; i += 2)
-    {
-        ok[i] = true;
-    }
-    for (int i = 3; i * i < 4000; i += 2)
-    {
-
-        for (int j = i * i; j < 4000; j += i * 2)
-        {
-            ok[j] = true;
-        }
-    }
-    for (int i = 2; i < 4000; i++)
-    {
-        v[i].first = i;
-        for (int j = i; j < 4000; j += i)
-        {
-            if (!ok[i])
-                v[j].second++;
-        }
-    }
-}
+int arr[30015];
 void solve()
 {
     /*
 
      */
-    sieve();
+
     int a;
     cin >> a;
     int ans = 0;
-    for (int i = 1; i <= a; i++)
+    for (int i = 2; i <= a; i++)
     {
-        if (v[i].second == 2)
+        if (arr[i] == 0)
         {
-            ans++;
+            for (int j = i; j <= a; j += i)
+            {
+                arr[j]++;
+            }
         }
-       // cout<<i<<" " << v[i].second << nl;
+        if (arr[i] == 2)
+            ans++;
     }
     cout << ans << nl;
 }
