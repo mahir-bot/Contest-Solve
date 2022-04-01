@@ -1403,6 +1403,25 @@
     ],
     "timestamp": "Sep/13/2021 12:44"
   },
+  "CF151630201": {
+    "contest_id": 1660,
+    "language": "GNU C++17",
+    "path": "codeforces\\1660\\F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Promising String (easy version)",
+    "problem_url": "https://codeforces.com/contest/1660/problem/F1",
+    "submission_id": "CF151630201",
+    "submission_url": "https://codeforces.com/contest/1660/submission/151630201",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Apr/01/2022 11:44"
+  },
   "CF152478773": {
     "contest_id": 1660,
     "language": "GNU C++17",
