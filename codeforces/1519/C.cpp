@@ -97,7 +97,7 @@ void solve()
     vii v(a), s(a);
     cin >> v >> s;
 
-    vll vv[a + 1];
+    vector<vll> vv(a + 10, vll());
     set<int> ss;
     for (int i = 0; i < a; i++)
     {
@@ -114,7 +114,7 @@ void solve()
 
     for (auto k : ss)
     {
-        int now = vv[k].size();
+        int  now = vv[k].size();
 
         vll sum(now + 1, 0);
         sum[0] = vv[k][0];
@@ -128,14 +128,14 @@ void solve()
 
             int many = now / j;
             many *= j;
-            ans[j] += sum[many - 1];
+            ans[j-1] += sum[many - 1];
             //  cout << j << " " << ans[j] << nl;
         }
 
         // cout << nl;
     }
 
-    for (int i = 1; i <= a; i++)
+    for (int i = 0; i < a; i++)
     {
         cout << ans[i] << " ";
     }
