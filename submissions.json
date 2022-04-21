@@ -1403,6 +1403,24 @@
     ],
     "timestamp": "Sep/13/2021 12:44"
   },
+  "CF154256693": {
+    "contest_id": 600,
+    "language": "GNU C++17",
+    "path": "codeforces\\600\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Make Palindrome",
+    "problem_url": "https://codeforces.com/contest/600/problem/C",
+    "submission_id": "CF154256693",
+    "submission_url": "https://codeforces.com/contest/600/submission/154256693",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Apr/21/2022 14:03"
+  },
   "CF154264624": {
     "contest_id": 1659,
     "language": "GNU C++17",
