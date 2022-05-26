@@ -1,4 +1,21 @@
 {
+  "CF158562908": {
+    "contest_id": 1680,
+    "language": "GNU C++17",
+    "path": "codeforces\\1680\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Minimums and Maximums",
+    "problem_url": "https://codeforces.com/contest/1680/problem/A",
+    "submission_id": "CF158562908",
+    "submission_url": "https://codeforces.com/contest/1680/submission/158562908",
+    "tags": [
+      "brute force",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/27/2022 01:43"
+  },
   "CF158586798": {
     "contest_id": 1680,
     "language": "GNU C++17",
