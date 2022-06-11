@@ -1,0 +1,20 @@
+{
+  "CF160170600": {
+    "contest_id": 1057,
+    "language": "GNU C++17",
+    "path": "codeforces\\1057\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bmail Computer Network",
+    "problem_url": "https://codeforces.com/contest/1057/problem/A",
+    "submission_id": "CF160170600",
+    "submission_url": "https://codeforces.com/contest/1057/submission/160170600",
+    "tags": [
+      "*special problem",
+      "dfs and similar",
+      "trees",
+      "*900"
+    ],
+    "timestamp": "Jun/11/2022 12:59"
+  }
+}

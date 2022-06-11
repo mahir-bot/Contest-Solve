@@ -5,10 +5,11 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-{profile_placeholder}
+* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/Mah1r.svg)](https://codeforces.com/profile/Mah1r)
+
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-{submission_placeholder}
+1 | [A - Bmail Computer Network](https://codeforces.com/contest/1057/problem/A) | [GNU C++17](./codeforces/1057/A.cpp) | `*special problem` `dfs and similar` `trees` `*900` | Jun/11/2022 12:59 | 
