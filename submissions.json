@@ -1,4 +1,20 @@
 {
+  "AC34055764": {
+    "contest_id": "abc263",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc263\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Monotonically Increasing",
+    "problem_url": "https://atcoder.jp/contests/abc263/tasks/abc263_c",
+    "submission_id": "AC34055764",
+    "submission_url": "https://atcoder.jp/contests/abc263/submissions/34055764",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/15/2022 02:29"
+  },
   "AC34055777": {
     "contest_id": "abc263",
     "language": "C++ (GCC 9.2.1)",
