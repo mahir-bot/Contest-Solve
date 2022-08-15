@@ -1,4 +1,20 @@
 {
+  "AC34059898": {
+    "contest_id": "abc263",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc263\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Left Right Operation",
+    "problem_url": "https://atcoder.jp/contests/abc263/tasks/abc263_d",
+    "submission_id": "AC34059898",
+    "submission_url": "https://atcoder.jp/contests/abc263/submissions/34059898",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/15/2022 09:52"
+  },
   "AC34074650": {
     "contest_id": "abc249",
     "language": "C++ (GCC 9.2.1)",
