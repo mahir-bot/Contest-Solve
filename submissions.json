@@ -1,4 +1,20 @@
 {
+  "AC34137913": {
+    "contest_id": "abc248",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc248\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Range Count Query",
+    "problem_url": "https://atcoder.jp/contests/abc248/tasks/abc248_d",
+    "submission_id": "AC34137913",
+    "submission_url": "https://atcoder.jp/contests/abc248/submissions/34137913",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/19/2022 11:25"
+  },
   "AC34149466": {
     "contest_id": "abc001",
     "language": "C++ (GCC 9.2.1)",
