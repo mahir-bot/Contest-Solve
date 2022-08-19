@@ -1,4 +1,20 @@
 {
+  "AC34149466": {
+    "contest_id": "abc001",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc001\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "\u7a4d\u96ea\u6df1\u5dee",
+    "problem_url": "https://atcoder.jp/contests/abc001/tasks/abc001_1",
+    "submission_id": "AC34149466",
+    "submission_url": "https://atcoder.jp/contests/abc001/submissions/34149466",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/19/2022 23:16"
+  },
   "AC34157588": {
     "contest_id": "abc042",
     "language": "C++ (GCC 9.2.1)",
