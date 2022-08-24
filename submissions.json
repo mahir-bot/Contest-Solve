@@ -1,4 +1,20 @@
 {
+  "AC34318276": {
+    "contest_id": "abc043",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc043\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Unbalanced",
+    "problem_url": "https://atcoder.jp/contests/abc043/tasks/arc059_b",
+    "submission_id": "AC34318276",
+    "submission_url": "https://atcoder.jp/contests/abc043/submissions/34318276",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/25/2022 01:22"
+  },
   "AC34318306": {
     "contest_id": "abc044",
     "language": "C++ (GCC 9.2.1)",
