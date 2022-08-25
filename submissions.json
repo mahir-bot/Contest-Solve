@@ -1,4 +1,20 @@
 {
+  "AC34326537": {
+    "contest_id": "abc265",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc265\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Explore",
+    "problem_url": "https://atcoder.jp/contests/abc265/tasks/abc265_b",
+    "submission_id": "AC34326537",
+    "submission_url": "https://atcoder.jp/contests/abc265/submissions/34326537",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/25/2022 14:23"
+  },
   "AC34327131": {
     "contest_id": "abc265",
     "language": "C++ (GCC 9.2.1)",
