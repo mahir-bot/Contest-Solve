@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
-using namespace std;
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/Tree_policy.hpp>
+// #include <ext/pb_ds/detail/standard_policies.hpp>
 
+// using namespace __gnu_pbds;
+// using namespace __gnu_cxx;
+using namespace std;
 //using u128 = __uint128_t;
 #define FIO                       \
     ios_base::sync_with_stdio(0); \
@@ -12,7 +17,7 @@ using namespace std;
 #define EPS 1e9
 #define MV 1e18
 #define MX 100000009
-#define mx 1000000
+#define mx 2000056
 #define all(v) v.begin(), v.end()
 #define rall(v) v.rbegin(), v.rend()
 #define mem(a, x) memset(a, x, sizeof(a))
@@ -39,7 +44,6 @@ using namespace std;
 #define INF 0x3F3F3F3F
 #define ff first
 #define ss second
-#define sz(s) s.size()
 
 // clock_t startTime;
 // mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
@@ -78,13 +82,6 @@ istream &operator>>(istream &is, vector<T> &input)
     return is;
 }
 
-// #include <ext/pb_ds/assoc_container.hpp>
-// #include <ext/pb_ds/Tree_policy.hpp>
-// #include <ext/pb_ds/detail/standard_policies.hpp>
-// using namespace __gnu_pbds;
-// using namespace __gnu_cxx;
-
-
 // template <typename T>
 // using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 // template <typename T>
@@ -117,58 +114,46 @@ string toBinary(ll decimal)
 
 
 
-
 void solve()
 {
-
 
     int a;
     cin >> a;
     vii v(a);
     cin >> v;
-
-
-    ll dp[a + 10];
-    memset(dp, MX, sizeof(dp));
-    ll ans = 0;
+    vii dp(a, 1e9);
     dp[0] = 0;
-
-    for (int i = 0; i < a - 1; i++)
+    for (int i = 0; i < a; i++)
     {
-        for (auto k : {i + 1, i + 2})
+        for (int j : {i + 1, i + 2})
         {
-            if (k < a)
-                dp[k] = min(dp[k], dp[i] + abs(v[k] - v[i]));
+            if (j < a)
+            {
+                dp[j] = min(dp[j], dp[i] + abs(v[j] - v[i]));
+            }
         }
     }
-
     cout << dp[a - 1] << nl;
 
 
 
 }
+
+
 int main()
 {
 
     FIO;
 #ifndef ONLINE_JUDGE
-    freopen("inputf.in", "r", stdin);
-    freopen("outputf.out", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 #endif
-
 
 
     // int t;
     // cin >> t;
     // while (t--)
-    //     solve();
-
-
-
     solve();
-
-
-
 
 
 
