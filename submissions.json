@@ -1,4 +1,20 @@
 {
+  "AC38113242": {
+    "contest_id": "arc109",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc109\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Hands",
+    "problem_url": "https://atcoder.jp/contests/arc109/tasks/arc109_a",
+    "submission_id": "AC38113242",
+    "submission_url": "https://atcoder.jp/contests/arc109/submissions/38113242",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/17/2023 11:53"
+  },
   "AC38113740": {
     "contest_id": "abc160",
     "language": "C++ (GCC 9.2.1)",
