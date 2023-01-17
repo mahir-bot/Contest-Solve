@@ -1,4 +1,20 @@
 {
+  "AC38113740": {
+    "contest_id": "abc160",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc160\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Line++",
+    "problem_url": "https://atcoder.jp/contests/abc160/tasks/abc160_d",
+    "submission_id": "AC38113740",
+    "submission_url": "https://atcoder.jp/contests/abc160/submissions/38113740",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/17/2023 12:22"
+  },
   "AC38117793": {
     "contest_id": "abc068",
     "language": "C++ (GCC 9.2.1)",
