@@ -1,4 +1,20 @@
 {
+  "AC39734526": {
+    "contest_id": "abc278",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc278\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "All Assign Point Add",
+    "problem_url": "https://atcoder.jp/contests/abc278/tasks/abc278_d",
+    "submission_id": "AC39734526",
+    "submission_url": "https://atcoder.jp/contests/abc278/submissions/39734526",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Mar/14/2023 23:42"
+  },
   "AC39735288": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
