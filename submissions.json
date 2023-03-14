@@ -1,4 +1,20 @@
 {
+  "AC39734290": {
+    "contest_id": "abc277",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc277\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Ladder Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc277/tasks/abc277_c",
+    "submission_id": "AC39734290",
+    "submission_url": "https://atcoder.jp/contests/abc277/submissions/39734290",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/14/2023 23:17"
+  },
   "AC39734526": {
     "contest_id": "abc278",
     "language": "C++ (GCC 9.2.1)",
