@@ -1,4 +1,20 @@
 {
+  "AC39735288": {
+    "contest_id": "abc271",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc271\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Manga",
+    "problem_url": "https://atcoder.jp/contests/abc271/tasks/abc271_c",
+    "submission_id": "AC39735288",
+    "submission_url": "https://atcoder.jp/contests/abc271/submissions/39735288",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/15/2023 01:15"
+  },
   "AC39756979": {
     "contest_id": "abc276",
     "language": "C++ (GCC 9.2.1)",
