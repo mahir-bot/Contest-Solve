@@ -140,22 +140,63 @@ void sublime()
 ///////////////////////////////////////////////////////////////////////////
 
 
-int ans = 1;
-
-map<int,vii>m;
-mii mm;
-
-void dfs(int node)
+int cnt = 0;
+mll parent,m,origin;
+class DSU
 {
-    if (mm[node])
-        return;
-    mm[node] = true;
 
-    ans = max(ans,node);
+public:
+    // DSU(int n)
+    // {
 
-    for (auto k:m[node])
-        dfs(k);
-}
+    //     for (int i = 0; i <= n; ++i)
+    //     {
+    //         parent[i] = i;
+    //     }
+    // }
+
+    ll getId(int x)
+    {
+
+        if (m[x]==0)
+        {
+            m[x] = ++cnt;
+            parent[cnt] = cnt;
+            origin[cnt] = x;
+        }
+        return m[x];
+    }
+
+
+    ll Find(ll u) // Finding the parent
+    {
+        if (u == parent[u])
+        {
+            return u;
+        }
+        return parent[u] = Find(parent[u]); // path compresion
+    }
+
+    void Union(ll u, ll v)
+    {
+        ll p = Find(u);
+        ll q = Find(v);
+
+        if (p != q)
+        {
+            parent[p] = q;
+            origin[q] = max(origin[p],origin[q]);
+        }
+
+    }
+
+    bool isFriend(ll u, ll v)
+    {
+        ll p = Find(u);
+        ll q = Find(v);
+        return (p == q);
+    }
+} ;
 
 
 void solve()
@@ -165,21 +206,21 @@ void solve()
 
     int a;
     cin>>a;
-    bool ok = false;
-    for (int i = 0; i<a; i++)
+    DSU ds;
+    ds.getId(1);
+    ll ans = 1;
+    for (int i=0; i<a; i++)
     {
         int x,y;
         cin>>x>>y;
-        m[x].pb(y);
-        m[y].pb(x);
-        if (x==1 or y==1)
-        {
-            ok = true;
-        }
+        ds.Union(ds.getId(x),ds.getId(y));
     }
-    if (ok)
-        dfs(1);
+
+    ans = max(ans,origin[ds.Find(1)]);
     cout<<ans<<nl;
+    cnt = 0;
+
+
 
 
 
