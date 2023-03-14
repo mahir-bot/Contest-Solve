@@ -1,4 +1,20 @@
 {
+  "AC39732657": {
+    "contest_id": "abc277",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc277\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Takahashi's Solitaire",
+    "problem_url": "https://atcoder.jp/contests/abc277/tasks/abc277_d",
+    "submission_id": "AC39732657",
+    "submission_url": "https://atcoder.jp/contests/abc277/submissions/39732657",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Mar/14/2023 21:15"
+  },
   "AC39732697": {
     "contest_id": "abc277",
     "language": "C++ (GCC 9.2.1)",
