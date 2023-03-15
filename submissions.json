@@ -1,4 +1,20 @@
 {
+  "AC39756979": {
+    "contest_id": "abc276",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc276\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Divide by 2 or 3",
+    "problem_url": "https://atcoder.jp/contests/abc276/tasks/abc276_d",
+    "submission_id": "AC39756979",
+    "submission_url": "https://atcoder.jp/contests/abc276/submissions/39756979",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Mar/16/2023 00:37"
+  },
   "AC41302830": {
     "contest_id": "practice2",
     "language": "C++ (GCC 9.2.1)",
