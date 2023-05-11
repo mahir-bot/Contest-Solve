@@ -140,7 +140,7 @@ struct ST {
     void clear()
     {
         memset(Tree,0LL,sizeof(Tree));
-        fill(lazyB,lazyB+mx*3,1);
+        fill(lazyB,lazyB+mx*4,1);
         memset(lazyC,0LL,sizeof(lazyC));
         memset(ok,0LL,sizeof(ok));
     }
@@ -167,8 +167,8 @@ struct ST {
 
 
 
-        ok[left] = true;
-        ok[right] = true;
+        ok[left] |= ok[node];
+        ok[right] |= ok[node];
         ok[node] = false;
         lazyB[node] = 1;
         lazyC[node] = 0;
@@ -225,9 +225,10 @@ struct ST {
         if (lx >= l and rx <= r)
         {
             Tree[node] = ((Tree[node]*b)%module+((rx-lx+1)*c)%module)%module;
+            ok[node] = 1;
+
             lazyB[node] = (lazyB[node]*b)%module;
             lazyC[node] = ((lazyC[node]*b)%module + c)%module;
-            ok[node] = true;
             push(node, lx, rx);
             return;
         }
