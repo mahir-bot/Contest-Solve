@@ -1,4 +1,20 @@
 {
+  "AC41302830": {
+    "contest_id": "practice2",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\practice2\\K.cpp",
+    "platform": "AtCoder",
+    "problem_index": "K",
+    "problem_name": "Range Affine Range Sum",
+    "problem_url": "https://atcoder.jp/contests/practice2/tasks/practice2_k",
+    "submission_id": "AC41302830",
+    "submission_url": "https://atcoder.jp/contests/practice2/submissions/41302830",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/11/2023 14:15"
+  },
   "AC41303871": {
     "contest_id": "practice2",
     "language": "C++ (GCC 9.2.1)",

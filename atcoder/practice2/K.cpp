@@ -133,38 +133,34 @@ void loj()
 ll module = 998244353;
 const int mx = (int)5e5+10;
 ll v[mx];
-
-
+ll Tree[mx * 4], lazyB[mx * 4],lazyC[mx*4];
+bool ok[mx*4];
 struct ST {
-    ll Tree[mx * 3], lazyB[mx * 3],lazyC[mx*3],ok[mx*3];
-    void clear()
-    {
-        memset(Tree,0LL,sizeof(Tree));
-        fill(lazyB,lazyB+mx*4,1);
-        memset(lazyC,0LL,sizeof(lazyC));
-        memset(ok,0LL,sizeof(ok));
-    }
+
+
 
     void push(ll node, ll lx, ll rx)
     {
-
-        if (lx==rx)
-            return;
 
         int left = node<<1;
         int right = left|1;
         int mid = (rx+lx)/2;
 
+        if (ok[node])
+        {
+            if (lazyB[left]==0)
+                lazyB[left] = 1;
+            if (lazyB[right]==0)
+                lazyB[right] = 1;
+            lazyB[left] = (lazyB[left]*lazyB[node])%module;
+            lazyB[right] =(lazyB[right]*lazyB[node])%module;
 
-        lazyB[left] = (lazyB[left]*lazyB[node])%module;
-        lazyB[right] =(lazyB[right]*lazyB[node])%module;
+            lazyC[left] = ((lazyC[left]*lazyB[node])%module + lazyC[node])%module;
+            lazyC[right] = ((lazyC[right]*lazyB[node])%module + lazyC[node])%module;
 
-        lazyC[left] = ((lazyC[left]*lazyB[node])%module + lazyC[node])%module;
-        lazyC[right] = ((lazyC[right]*lazyB[node])%module + lazyC[node])%module;
-
-        Tree[left] = ((Tree[left]*lazyB[node])%module+((mid-lx+1)*lazyC[node])%module)%module;
-        Tree[right] = ((Tree[right]*lazyB[node])%module+((rx-mid)*lazyC[node])%module)%module;
-
+            Tree[left] = ((Tree[left]*lazyB[node])%module+((mid-lx+1)*lazyC[node])%module)%module;
+            Tree[right] = ((Tree[right]*lazyB[node])%module+((rx-mid)*lazyC[node])%module)%module;
+        }
 
 
         ok[left] |= ok[node];
@@ -174,10 +170,8 @@ struct ST {
         lazyC[node] = 0;
         return;
     }
-
     void init(ll node, ll b, ll e)
     {
-
         if (b == e)
         {
             Tree[node] = v[b];
@@ -195,8 +189,7 @@ struct ST {
     ll query(ll node, ll lx, ll rx, ll l, ll r)
     {
 
-        if (ok[node])
-            push(node, lx, rx);
+
 
 
         if (lx > r or rx < l)
@@ -209,6 +202,7 @@ struct ST {
         ll left = node * 2; //আরো ভাঙতে হবে
         ll right = node * 2 + 1;
         ll mid = (lx + rx) / 2;
+        push(node, lx, rx);
         ll leftQ = query(left, lx, mid, l, r)%module;
         ll rightQ = query(right, mid + 1, rx, l, r)%module;
 
@@ -217,8 +211,7 @@ struct ST {
 
     void update(ll node, ll lx, ll rx, ll l, ll r, ll b,ll c)
     {
-        if (ok[node])
-            push(node, lx, rx);
+
 
         if (lx > r or rx < l)
             return; //বাইরে চলে গিয়েছে
@@ -226,17 +219,18 @@ struct ST {
         {
             Tree[node] = ((Tree[node]*b)%module+((rx-lx+1)*c)%module)%module;
             ok[node] = 1;
-
+            if (lazyB[node]==0)
+                lazyB[node] = 1;
             lazyB[node] = (lazyB[node]*b)%module;
             lazyC[node] = ((lazyC[node]*b)%module + c)%module;
-            push(node, lx, rx);
+
             return;
         }
 
         ll left = node * 2; //আরো ভাঙতে হবে
         ll right = node * 2 + 1;
         ll mid = (lx + rx) / 2;
-        // push(node, lx, rx);
+        push(node, lx, rx);
         update(left, lx, mid, l, r, b,c);
         update(right, mid + 1, rx, l, r, b,c);
         Tree[node] = (Tree[left] + Tree[right])%module;
@@ -265,7 +259,6 @@ void solve()
     for (ll i=1; i<=a; i++)
         cin>>v[i];
 
-    st.clear();
 
     st.init(1,1,a);
 
