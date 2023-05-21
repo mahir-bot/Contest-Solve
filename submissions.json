@@ -1,4 +1,20 @@
 {
+  "AC41614589": {
+    "contest_id": "abc302",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc302\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Almost Equal",
+    "problem_url": "https://atcoder.jp/contests/abc302/tasks/abc302_c",
+    "submission_id": "AC41614589",
+    "submission_url": "https://atcoder.jp/contests/abc302/submissions/41614589",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "May/22/2023 00:22"
+  },
   "AC41623727": {
     "contest_id": "abc302",
     "language": "C++ (GCC 9.2.1)",
