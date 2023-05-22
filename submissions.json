@@ -1,4 +1,20 @@
 {
+  "AC41632184": {
+    "contest_id": "abc302",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc302\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Isolation",
+    "problem_url": "https://atcoder.jp/contests/abc302/tasks/abc302_e",
+    "submission_id": "AC41632184",
+    "submission_url": "https://atcoder.jp/contests/abc302/submissions/41632184",
+    "tags": [
+      "AtCoder",
+      "*425"
+    ],
+    "timestamp": "May/22/2023 19:38"
+  },
   "AC41635611": {
     "contest_id": "abc301",
     "language": "C++ (GCC 9.2.1)",
