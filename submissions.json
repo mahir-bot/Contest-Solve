@@ -1,4 +1,20 @@
 {
+  "AC41635769": {
+    "contest_id": "abc301",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc301\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "AtCoder Cards",
+    "problem_url": "https://atcoder.jp/contests/abc301/tasks/abc301_c",
+    "submission_id": "AC41635769",
+    "submission_url": "https://atcoder.jp/contests/abc301/submissions/41635769",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/22/2023 23:40"
+  },
   "AC41783256": {
     "contest_id": "abc300",
     "language": "C++ (GCC 9.2.1)",
