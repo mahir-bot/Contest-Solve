@@ -1,4 +1,20 @@
 {
+  "AC41623727": {
+    "contest_id": "abc302",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc302\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Impartial Gift",
+    "problem_url": "https://atcoder.jp/contests/abc302/tasks/abc302_d",
+    "submission_id": "AC41623727",
+    "submission_url": "https://atcoder.jp/contests/abc302/submissions/41623727",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "May/22/2023 13:42"
+  },
   "AC41632184": {
     "contest_id": "abc302",
     "language": "C++ (GCC 9.2.1)",
