@@ -1,4 +1,20 @@
 {
+  "AC41635611": {
+    "contest_id": "abc301",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc301\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Overall Winner",
+    "problem_url": "https://atcoder.jp/contests/abc301/tasks/abc301_a",
+    "submission_id": "AC41635611",
+    "submission_url": "https://atcoder.jp/contests/abc301/submissions/41635611",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/22/2023 23:20"
+  },
   "AC41635651": {
     "contest_id": "abc301",
     "language": "C++ (GCC 9.2.1)",
