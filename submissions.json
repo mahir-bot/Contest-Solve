@@ -1,4 +1,20 @@
 {
+  "AC41783961": {
+    "contest_id": "abc300",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc300\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Same Map in the RPG World",
+    "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_b",
+    "submission_id": "AC41783961",
+    "submission_url": "https://atcoder.jp/contests/abc300/submissions/41783961",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "May/28/2023 00:54"
+  },
   "AC41784260": {
     "contest_id": "abc300",
     "language": "C++ (GCC 9.2.1)",
