@@ -130,11 +130,7 @@ void loj()
 //////////////////// DO NOT TOUCH BEFORE THIS LINE ////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
-ull toDecimal(string bin)
-{
-    unsigned long deci = std::bitset<60>(bin).to_ulong(); // binary string to decimal
-    return deci;
-}
+
 void solve()
 {
     /*
@@ -191,11 +187,15 @@ void solve()
                     s[j] = '0';
             }
         }
-        reverse(all(s));
+        // reverse(all(s));
 
-        ull ans = toDecimal(s);
-        // cout<<sa<<nl;
-
+        ll ans = 0;
+        // cout<<s<<nl;
+        for (int j = 59; j>=0; j--)
+        {
+            ans *= 2;
+            ans += s[j] - '0';
+        }
 
         cout<<ans<<nl;
         return;
