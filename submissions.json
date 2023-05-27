@@ -1,4 +1,20 @@
 {
+  "AC41783256": {
+    "contest_id": "abc300",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc300\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "N-choice question",
+    "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_a",
+    "submission_id": "AC41783256",
+    "submission_url": "https://atcoder.jp/contests/abc300/submissions/41783256",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/27/2023 23:38"
+  },
   "AC41783961": {
     "contest_id": "abc300",
     "language": "C++ (GCC 9.2.1)",
