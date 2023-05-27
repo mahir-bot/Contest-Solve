@@ -1,4 +1,20 @@
 {
+  "AC41784260": {
+    "contest_id": "abc300",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc300\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Cross",
+    "problem_url": "https://atcoder.jp/contests/abc300/tasks/abc300_c",
+    "submission_id": "AC41784260",
+    "submission_url": "https://atcoder.jp/contests/abc300/submissions/41784260",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "May/28/2023 01:32"
+  },
   "AC41784672": {
     "contest_id": "abc300",
     "language": "C++ (GCC 9.2.1)",
