@@ -1,4 +1,20 @@
 {
+  "AC42084370": {
+    "contest_id": "abc303",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc303\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Shift vs. CapsLock",
+    "problem_url": "https://atcoder.jp/contests/abc303/tasks/abc303_d",
+    "submission_id": "AC42084370",
+    "submission_url": "https://atcoder.jp/contests/abc303/submissions/42084370",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/08/2023 23:38"
+  },
   "AC42101639": {
     "contest_id": "abc299",
     "language": "C++ (GCC 9.2.1)",
