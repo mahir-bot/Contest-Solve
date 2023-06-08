@@ -1,4 +1,20 @@
 {
+  "AC42079000": {
+    "contest_id": "abc304",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc304\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "A Piece of Cake",
+    "problem_url": "https://atcoder.jp/contests/abc304/tasks/abc304_d",
+    "submission_id": "AC42079000",
+    "submission_url": "https://atcoder.jp/contests/abc304/submissions/42079000",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/08/2023 18:13"
+  },
   "AC42081494": {
     "contest_id": "abc304",
     "language": "C++ (GCC 9.2.1)",
