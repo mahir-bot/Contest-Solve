@@ -2,54 +2,50 @@
 
 using namespace std;
 // using u128 = __int128;
-#define FIO                       \
-    ios_base::sync_with_stdio(0); \
-    cin.tie(0);                   \
-    cout.tie(0);
-#define pi acos(-1.0)
-#define ll long long
-#define ull unsigned ll int
-#define EPS 0.00000001
-#define MV 1e18
-#define MX 1000000009
-#define mod 1000007
-#define mx (ll)2e5+10
-#define all(v) v.begin(), v.end()
-#define rall(v) v.rbegin(), v.rend()
-#define mem(a, x) memset(a, x, sizeof(a))
-#define gcd(a, b) __gcd(a, b)
-#define lcm(a, b) (a * (b / gcd(a, b)))
-#define vii vector<int>
-#define vll vector<ll>
-#define vvi vector<vii>
-#define vvl vector<vll>
-#define vul vector<ull>
-#define pii pair<int, int>
-#define pll pair<ll, ll>
-#define pip pair<int, pii>
-#define pul pair<ull, ull>
-#define mii map<int, int>
-#define mll map<ll, ll>
-#define qii queue<int>
-#define dii deque<int>
-#define vip vector<pair<int, int>>
-#define vlp vector<pair<ll, ll>>
-#define djk priority_queue<pll, vlp, greater<pll>>
-#define pb push_back
-#define mp make_pair
-#define mt make_tuple
-#define nl '\n'
-#define SP(x, y) fixed << setprecision((x)) << (y)
-#define INF 0x3F3F3F3F
-#define ff first
-#define ss second
-#define SZ(s) s.size()
+// #define pi acos(-1.0)
+// #define ll long long
+// #define ull unsigned ll int
+// #define EPS 0.00000001
+// #define MV 1e18
+// #define MX 1000000009
+// #define mod 1000007
+// #define mx (ll)2e5+10
+// #define all(v) v.begin(), v.end()
+// #define rall(v) v.rbegin(), v.rend()
+// #define mem(a, x) memset(a, x, sizeof(a))
+// #define gcd(a, b) __gcd(a, b)
+// #define lcm(a, b) (a * (b / gcd(a, b)))
+// #define vii vector<int>
+// #define vll vector<ll>
+// #define vvi vector<vii>
+// #define vvl vector<vll>
+// #define vul vector<ull>
+// #define pii pair<int, int>
+// #define pll pair<ll, ll>
+// #define pip pair<int, pii>
+// #define pul pair<ull, ull>
+// #define mii map<int, int>
+// #define mll map<ll, ll>
+// #define qii queue<int>
+// #define dii deque<int>
+// #define vip vector<pair<int, int>>
+// #define vlp vector<pair<ll, ll>>
+// #define djk priority_queue<pll, vlp, greater<pll>>
+// #define pb push_back
+// #define mp make_pair
+// #define mt make_tuple
+// #define nl '\n'
+// #define SP(x, y) fixed << setprecision((x)) << (y)
+// #define INF 0x3F3F3F3F
+// #define ff first
+// #define ss second
+// #define SZ(s) s.size()
 
 
 
 
-int fx[] = {0, 1, 0, -1};
-int fy[] = { -1, 0, 1, 0};
+// int fx[] = {0, 1, 0, -1};
+// int fy[] = { -1, 0, 1, 0};
 // int tr[] = { -2, -2, -1, -1, 1, 1, 2, 2};
 // int tc[] = { -1, 1, -2, 2, -2, 2, -1, 1};
 
@@ -68,21 +64,21 @@ int fy[] = { -1, 0, 1, 0};
 // {
 //     return n & ~((T)1 << pos);
 // }
-template <class T>
-inline T isOn(T n, T pos)
-{
-    return (bool)(n & ((T)1 >> pos));
-}
+// template <class T>
+// inline T isOn(T n, T pos)
+// {
+//     return (bool)(n & ((T)1 >> pos));
+// }
 
-template <class T>
-istream &operator>>(istream &is, vector<T> &input)
-{
-    for (T &in : input)
-    {
-        is >> in;
-    }
-    return is;
-}
+// template <class T>
+// istream &operator>>(istream &is, vector<T> &input)
+// {
+//     for (T &in : input)
+//     {
+//         is >> in;
+//     }
+//     return is;
+// }
 // template <class T> inline T bigmod(T p,T e,T M) {
 //     ll ret = 1;
 //     for (; e > 0; e >>= 1) {
@@ -130,8 +126,6 @@ istream &operator>>(istream &is, vector<T> &input)
 //////////////////// DO NOT TOUCH BEFORE THIS LINE ////////////////////////
 ///////////////////////////////////////////////////////////////////////////
 
-#define int ll
-
 
 void solve()
 {
@@ -178,8 +172,7 @@ void solve()
 
 signed main()
 {
-    FIO;
-
+    ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0);
 
     // int t;
     // cin>>t;
