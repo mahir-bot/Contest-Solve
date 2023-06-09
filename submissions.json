@@ -1,4 +1,20 @@
 {
+  "AC42104128": {
+    "contest_id": "abc298",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc298\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Writing a Numeral",
+    "problem_url": "https://atcoder.jp/contests/abc298/tasks/abc298_d",
+    "submission_id": "AC42104128",
+    "submission_url": "https://atcoder.jp/contests/abc298/submissions/42104128",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/09/2023 23:38"
+  },
   "AC42118753": {
     "contest_id": "abc297",
     "language": "C++ (GCC 9.2.1)",
