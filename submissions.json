@@ -1,4 +1,20 @@
 {
+  "AC42118753": {
+    "contest_id": "abc297",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc297\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Count Subtractions",
+    "problem_url": "https://atcoder.jp/contests/abc297/tasks/abc297_d",
+    "submission_id": "AC42118753",
+    "submission_url": "https://atcoder.jp/contests/abc297/submissions/42118753",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/10/2023 17:35"
+  },
   "AC42194958": {
     "contest_id": "abc296",
     "language": "C++ (GCC 9.2.1)",
