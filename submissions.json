@@ -1,4 +1,20 @@
 {
+  "AC42205717": {
+    "contest_id": "abc293",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc293\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Tying Rope",
+    "problem_url": "https://atcoder.jp/contests/abc293/tasks/abc293_d",
+    "submission_id": "AC42205717",
+    "submission_url": "https://atcoder.jp/contests/abc293/submissions/42205717",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/12/2023 00:29"
+  },
   "AC42205763": {
     "contest_id": "abc305",
     "language": "C++ (GCC 9.2.1)",
