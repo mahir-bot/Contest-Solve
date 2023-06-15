@@ -1,4 +1,20 @@
 {
+  "AC42281852": {
+    "contest_id": "abc305",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc305\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Sleep Log",
+    "problem_url": "https://atcoder.jp/contests/abc305/tasks/abc305_d",
+    "submission_id": "AC42281852",
+    "submission_url": "https://atcoder.jp/contests/abc305/submissions/42281852",
+    "tags": [
+      "AtCoder",
+      "*450"
+    ],
+    "timestamp": "Jun/15/2023 22:40"
+  },
   "AC42282262": {
     "contest_id": "abc292",
     "language": "C++ (GCC 9.2.1)",
