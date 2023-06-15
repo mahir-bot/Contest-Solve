@@ -157,27 +157,29 @@ void solve()
 
     int a;
     cin >> a;
-    vii v(a);
-    cin >> v;
+    int v[a + 10] = {0LL} ;
 
-    mii m;
-    int prefix[a + 10] = {0};
-    for (int i = 0; i < a; i++)
+
+
+    int prefix[a + 10] = {0LL};
+    int arr[a + 10] = {0LL};
+    for (int i = 1; i <= a; i++)
     {
+        cin >> v[i];
+        arr[i] = v[i] - v[i - 1];
 
-
-        if (i % 2 == 1 or i == 0)
+        if (i % 2 == 0)
         {
-            if (i - 1 >= 0)
-                prefix[i] = prefix[i - 1];
+            prefix[i] = prefix[i - 1];
         }
-        else if (i % 2 == 0 and i)
+        else
         {
-            prefix[i] = prefix[i - 1] + (v[i] - v[i - 1]);
+            prefix[i] = prefix[i - 1] + arr[i];
         }
 
         // cout << prefix[i] << nl;
     }
+
 
     // cout << nl;
     int q;
@@ -187,30 +189,27 @@ void solve()
         int l, r;
         cin >> l >> r;
 
-        int valLeft =  lower_bound(all(v), l) - v.begin();
-        int valRight = lower_bound(all(v), r) - v.begin();
-        int ans = 0;
+        int valLeft =  lower_bound(v + 1, v + a + 1, l) - v;
+        int valRight = lower_bound(v + 1, v + a + 1, r) - v;
 
-        ans = prefix[valRight - 1] - prefix[valLeft];
 
+        int ans = prefix[valRight - 1] - prefix[valLeft];
         // cout << ans << nl;
-        if (valLeft % 2 == 0)
+
+        if (valLeft % 2 == 1)
         {
             ans += v[valLeft] - l;
         }
         // cout << ans << nl;
-        if (valRight % 2 == 0)
+        if (valRight % 2 == 1)
         {
             ans += r - v[valRight - 1];
         }
+
         cout << ans << nl;
 
 
-        // int x = v[valLeft];
-        // int y = v[valRight];
 
-
-        // ans += prefix[valRight-1]
 
 
 
