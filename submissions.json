@@ -1,4 +1,20 @@
 {
+  "AC42282262": {
+    "contest_id": "abc292",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc292\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Unicyclic Components",
+    "problem_url": "https://atcoder.jp/contests/abc292/tasks/abc292_d",
+    "submission_id": "AC42282262",
+    "submission_url": "https://atcoder.jp/contests/abc292/submissions/42282262",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/15/2023 23:35"
+  },
   "AC42784170": {
     "contest_id": "abc273",
     "language": "C++ (GCC 9.2.1)",
