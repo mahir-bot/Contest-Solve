@@ -5009,6 +5009,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF210177581": {
+    "contest_id": 1840,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1840\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Wooden Toy Festival",
+    "problem_url": "https://codeforces.com/contest/1840/problem/D",
+    "submission_id": "CF210177581",
+    "submission_url": "https://codeforces.com/contest/1840/submission/210177581",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jun/19/2023 00:48"
+  },
   "CF210178942": {
     "contest_id": 1840,
     "language": "C++20 (GCC 11-64)",
