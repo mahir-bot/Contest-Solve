@@ -8,7 +8,7 @@ using namespace std;
     cout.tie(0);
 #define pi acos(-1.0)
 #define ll long long
-#define int ll
+// #define int ll
 #define ull unsigned ll int
 #define EPS 0.00000001
 #define MV 1e18
@@ -145,11 +145,22 @@ void solve()
     string s="";
     vii v(64);
     cin>>v;
-    reverse(all(v));
-    for (int i=0; i<64; i++)
-        s+=to_string(v[i]);
+    // reverse(all(v));
+    ull two[70];
+    two[0] = 1;
 
-    cout<<stoull(s,nullptr,2)<<nl;
+    for (ull i = 1; i<=64; i++)
+    {
+        two[i] = two[i-1]*2;
+    }
+    ull ans = 0;
+    for (ull i=0; i<64; i++)
+    {
+        ans+=(v[i]*two[i]);
+    }
+    cout<<ans<<nl;
+
+
 
 
 
