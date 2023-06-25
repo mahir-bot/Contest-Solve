@@ -1,4 +1,20 @@
 {
+  "AC42954960": {
+    "contest_id": "abc306",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc306\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Best Performances",
+    "problem_url": "https://atcoder.jp/contests/abc306/tasks/abc306_e",
+    "submission_id": "AC42954960",
+    "submission_url": "https://atcoder.jp/contests/abc306/submissions/42954960",
+    "tags": [
+      "AtCoder",
+      "*475"
+    ],
+    "timestamp": "Jun/25/2023 15:05"
+  },
   "AC42981419": {
     "contest_id": "abc307",
     "language": "C++ (GCC 9.2.1)",
