@@ -1,4 +1,20 @@
 {
+  "AC42981419": {
+    "contest_id": "abc307",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc307\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Weekly Records",
+    "problem_url": "https://atcoder.jp/contests/abc307/tasks/abc307_a",
+    "submission_id": "AC42981419",
+    "submission_url": "https://atcoder.jp/contests/abc307/submissions/42981419",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jun/26/2023 17:02"
+  },
   "AC42981598": {
     "contest_id": "abc307",
     "language": "C++ (GCC 9.2.1)",
