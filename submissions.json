@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF211216915": {
+    "contest_id": 1836,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1836\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Astrophysicists",
+    "problem_url": "https://codeforces.com/contest/1836/problem/B",
+    "submission_id": "CF211216915",
+    "submission_url": "https://codeforces.com/contest/1836/submission/211216915",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jun/27/2023 14:12"
+  },
   "CF211217305": {
     "contest_id": 1836,
     "language": "C++20 (GCC 11-64)",
