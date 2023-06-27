@@ -1,4 +1,20 @@
 {
+  "AC43000924": {
+    "contest_id": "abc291",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc291\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Trimmed Mean",
+    "problem_url": "https://atcoder.jp/contests/abc291/tasks/abc291_b",
+    "submission_id": "AC43000924",
+    "submission_url": "https://atcoder.jp/contests/abc291/submissions/43000924",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/27/2023 15:57"
+  },
   "AC43026534": {
     "contest_id": "abc291",
     "language": "C++ (GCC 9.2.1)",
