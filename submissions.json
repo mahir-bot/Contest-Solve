@@ -1,4 +1,20 @@
 {
+  "AC43026534": {
+    "contest_id": "abc291",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc291\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "LRUD Instructions 2",
+    "problem_url": "https://atcoder.jp/contests/abc291/tasks/abc291_c",
+    "submission_id": "AC43026534",
+    "submission_url": "https://atcoder.jp/contests/abc291/submissions/43026534",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/28/2023 17:33"
+  },
   "AC43027352": {
     "contest_id": "abc291",
     "language": "C++ (GCC 9.2.1)",
