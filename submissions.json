@@ -1,4 +1,20 @@
 {
+  "AC43087978": {
+    "contest_id": "abc205",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc205\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Kth Excluded",
+    "problem_url": "https://atcoder.jp/contests/abc205/tasks/abc205_d",
+    "submission_id": "AC43087978",
+    "submission_url": "https://atcoder.jp/contests/abc205/submissions/43087978",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/01/2023 18:01"
+  },
   "AC43165137": {
     "contest_id": "abc279",
     "language": "C++ (GCC 9.2.1)",
