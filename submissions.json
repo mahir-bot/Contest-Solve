@@ -5009,6 +5009,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF211867913": {
+    "contest_id": 8,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\8\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Obsession with Robots",
+    "problem_url": "https://codeforces.com/contest/8/problem/B",
+    "submission_id": "CF211867913",
+    "submission_url": "https://codeforces.com/contest/8/submission/211867913",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jul/03/2023 01:28"
+  },
   "CF212321374": {
     "contest_id": 1593,
     "language": "C++20 (GCC 11-64)",
