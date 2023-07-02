@@ -1,4 +1,20 @@
 {
+  "AC43198516": {
+    "contest_id": "abc256",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc256\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Takahashi's Anguish",
+    "problem_url": "https://atcoder.jp/contests/abc256/tasks/abc256_e",
+    "submission_id": "AC43198516",
+    "submission_url": "https://atcoder.jp/contests/abc256/submissions/43198516",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/02/2023 19:34"
+  },
   "AC43221158": {
     "contest_id": "abc289",
     "language": "C++ (GCC 9.2.1)",
