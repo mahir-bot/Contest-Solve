@@ -1,4 +1,20 @@
 {
+  "AC43232130": {
+    "contest_id": "abc289",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc289\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Step Up Robot",
+    "problem_url": "https://atcoder.jp/contests/abc289/tasks/abc289_d",
+    "submission_id": "AC43232130",
+    "submission_url": "https://atcoder.jp/contests/abc289/submissions/43232130",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/03/2023 23:12"
+  },
   "AC43245127": {
     "contest_id": "abc289",
     "language": "C++ (GCC 9.2.1)",
