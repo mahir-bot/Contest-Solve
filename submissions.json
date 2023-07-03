@@ -1,4 +1,20 @@
 {
+  "AC43221158": {
+    "contest_id": "abc289",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc289\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "flip",
+    "problem_url": "https://atcoder.jp/contests/abc289/tasks/abc289_a",
+    "submission_id": "AC43221158",
+    "submission_url": "https://atcoder.jp/contests/abc289/submissions/43221158",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/03/2023 14:49"
+  },
   "AC43223379": {
     "contest_id": "abc289",
     "language": "C++ (GCC 9.2.1)",
