@@ -1,4 +1,20 @@
 {
+  "AC43231832": {
+    "contest_id": "abc289",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc289\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Coverage",
+    "problem_url": "https://atcoder.jp/contests/abc289/tasks/abc289_c",
+    "submission_id": "AC43231832",
+    "submission_url": "https://atcoder.jp/contests/abc289/submissions/43231832",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/03/2023 22:46"
+  },
   "AC43232130": {
     "contest_id": "abc289",
     "language": "C++ (GCC 9.2.1)",
