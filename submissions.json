@@ -1,4 +1,20 @@
 {
+  "AC43250229": {
+    "contest_id": "abc256",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc256\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "2^N",
+    "problem_url": "https://atcoder.jp/contests/abc256/tasks/abc256_a",
+    "submission_id": "AC43250229",
+    "submission_url": "https://atcoder.jp/contests/abc256/submissions/43250229",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/04/2023 18:40"
+  },
   "AC43255160": {
     "contest_id": "abc256",
     "language": "C++ (GCC 9.2.1)",
