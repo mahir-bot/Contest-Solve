@@ -1,4 +1,20 @@
 {
+  "AC43249290": {
+    "contest_id": "abc272",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc272\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Root M Leaper",
+    "problem_url": "https://atcoder.jp/contests/abc272/tasks/abc272_d",
+    "submission_id": "AC43249290",
+    "submission_url": "https://atcoder.jp/contests/abc272/submissions/43249290",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/04/2023 18:11"
+  },
   "AC43250229": {
     "contest_id": "abc256",
     "language": "C++ (GCC 9.2.1)",
