@@ -1,4 +1,20 @@
 {
+  "AC43245171": {
+    "contest_id": "abc289",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc289\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Swap Places",
+    "problem_url": "https://atcoder.jp/contests/abc289/tasks/abc289_e",
+    "submission_id": "AC43245171",
+    "submission_url": "https://atcoder.jp/contests/abc289/submissions/43245171",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/04/2023 14:46"
+  },
   "AC43245285": {
     "contest_id": "abc289",
     "language": "C++ (GCC 9.2.1)",

@@ -8,11 +8,11 @@ using namespace std;
     cout.tie(0);
 #define pi acos(-1.0)
 #define ll long long
-#define int ll
+// #define int ll
 #define ull unsigned ll int
 #define EPS 0.00000001
 #define mod 998244353
-const int mx = 5000 + 11;
+#define mx (int)1e4+10
 #define all(v) v.begin(), v.end()
 #define rall(v) v.rbegin(), v.rend()
 #define mem(a, x) memset(a, x, sizeof(a))
@@ -119,13 +119,13 @@ void loj()
 //NO FIO IN INTERACTIVE PROBLEM
 //PRINT FFLUSH(STDOUT) AND NEW LINE
 
+const int E = 5000 + 11;
 
-
-vii g[mx];
-vii color;
+vii g[E];
+int color[E];
 int ans = 0;
 int a,b;
-bool vis[mx][mx];
+bool vis[E][E];
 
 
 
@@ -135,49 +135,47 @@ void clr()
     {
         g[i].clear();
     }
-    color.clear();
-    memset(vis,0,sizeof vis);
+
+    memset(vis,0,sizeof(vis));
+    ans = 0;
+    a=b=0;
+    return;
 }
 
-void bfs()
+int bfs()
 {
-    queue<pair<pii,int>>q;
-
-    q.push({{1,a},0});
+    queue<pair<pair<int, int>, int> > q;
+    q.push(make_pair(make_pair(1, a), 0));
     vis[1][a] = true;
 
     while (q.empty()==false)
     {
-        pii x;
-        int y;
-        tie(x,y) = q.front();
+        pair<pair<int, int>, int> temp = q.front();
+        int cur1 = temp.first.first;
+        int cur2 = temp.first.second;
+        int dis = temp.second;
         q.pop();
 
-        if (x.ff==a and x.ss==1)
-        {
-            ans = y;
-            return;
+        if (cur1 == a && cur2 == 1) {
+            return dis;
+
         }
 
-        for (int i = 0; i<g[x.ff].size(); i++)
-        {
-            for (int j = 0; j<g[x.ss].size(); j++)
-            {
-                int f = g[x.ff][i];
-                int s = g[x.ss][j];
-                if (vis[f][s])
-                    continue;
-                if (color[f-1]==color[s-1])
-                    continue;
+        for (int i = 0; i < g[cur1].size(); i++) {
+            for (int j = 0; j < g[cur2].size(); j++) {
+                int to1 = g[cur1][i];
+                int to2 = g[cur2][j];
 
-                vis[f][s] = true;
+                if (color[to1] == color[to2]) continue;
+                if (vis[to1][to2]) continue;
 
-                q.push({{f,s},y+1});
+                vis[to1][to2] = true;
+                q.push(make_pair(make_pair(to1, to2), dis + 1));
             }
         }
     }
-    ans = -1;
-    return;
+
+    return -1;
 }
 
 
@@ -192,8 +190,9 @@ void solve()
 
     cin>>a>>b;
 
-    color.resize(a);
-    cin>>color;
+
+    for (int i=1; i<=a; i++)
+        cin>>color[i];
 
     for (int i = 0; i<b; i++)
     {
@@ -203,8 +202,8 @@ void solve()
         g[y].pb(x);
     }
 
-    bfs();
-    cout<<ans<<nl;
+    cout<<bfs()<<nl;
+    // cout<<ans<<nl;
     clr();
 
 
@@ -216,11 +215,7 @@ void solve()
 
 signed main()
 {
-    ios_base::sync_with_stdio(0);
-
-    cin.tie(0);
-
-    cout.tie(0);
+    FIO;
     int tt;
     cin>>tt;
 
