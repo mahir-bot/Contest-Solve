@@ -5009,6 +5009,25 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF212431742": {
+    "contest_id": 1847,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1847\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vampiric Powers, anyone?",
+    "problem_url": "https://codeforces.com/contest/1847/problem/C",
+    "submission_id": "CF212431742",
+    "submission_url": "https://codeforces.com/contest/1847/submission/212431742",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dp",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Jul/06/2023 22:08"
+  },
   "CF212809313": {
     "contest_id": 1792,
     "language": "C++20 (GCC 11-64)",
