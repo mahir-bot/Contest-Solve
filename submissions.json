@@ -1,4 +1,20 @@
 {
+  "AC43459516": {
+    "contest_id": "abc288",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc288\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Don\u2019t be cycle",
+    "problem_url": "https://atcoder.jp/contests/abc288/tasks/abc288_c",
+    "submission_id": "AC43459516",
+    "submission_url": "https://atcoder.jp/contests/abc288/submissions/43459516",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/10/2023 17:21"
+  },
   "AC43467676": {
     "contest_id": "abc287",
     "language": "C++ (GCC 9.2.1)",
