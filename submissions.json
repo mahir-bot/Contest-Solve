@@ -1,4 +1,20 @@
 {
+  "AC43468028": {
+    "contest_id": "abc285",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc285\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Change Usernames",
+    "problem_url": "https://atcoder.jp/contests/abc285/tasks/abc285_d",
+    "submission_id": "AC43468028",
+    "submission_url": "https://atcoder.jp/contests/abc285/submissions/43468028",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/10/2023 23:56"
+  },
   "AC43468251": {
     "contest_id": "abc283",
     "language": "C++ (GCC 9.2.1)",
