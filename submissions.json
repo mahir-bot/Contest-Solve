@@ -1,4 +1,20 @@
 {
+  "AC43515259": {
+    "contest_id": "abc305",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc305\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Art Gallery on Graph",
+    "problem_url": "https://atcoder.jp/contests/abc305/tasks/abc305_e",
+    "submission_id": "AC43515259",
+    "submission_url": "https://atcoder.jp/contests/abc305/submissions/43515259",
+    "tags": [
+      "AtCoder",
+      "*475"
+    ],
+    "timestamp": "Jul/12/2023 22:13"
+  },
   "AC43516017": {
     "contest_id": "abc303",
     "language": "C++ (GCC 9.2.1)",
