@@ -1,4 +1,20 @@
 {
+  "AC43516249": {
+    "contest_id": "abc287",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc287\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Karuta",
+    "problem_url": "https://atcoder.jp/contests/abc287/tasks/abc287_e",
+    "submission_id": "AC43516249",
+    "submission_url": "https://atcoder.jp/contests/abc287/submissions/43516249",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/12/2023 23:54"
+  },
   "AC43516485": {
     "contest_id": "abc217",
     "language": "C++ (GCC 9.2.1)",
