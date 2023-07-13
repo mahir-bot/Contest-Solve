@@ -1,4 +1,20 @@
 {
+  "AC43526264": {
+    "contest_id": "abc229",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc229\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Graph Destruction",
+    "problem_url": "https://atcoder.jp/contests/abc229/tasks/abc229_e",
+    "submission_id": "AC43526264",
+    "submission_url": "https://atcoder.jp/contests/abc229/submissions/43526264",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/13/2023 12:59"
+  },
   "AC43526878": {
     "contest_id": "abc166",
     "language": "C++ (GCC 9.2.1)",
