@@ -1,4 +1,20 @@
 {
+  "AC43539852": {
+    "contest_id": "abc299",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc299\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Nearest Black Vertex",
+    "problem_url": "https://atcoder.jp/contests/abc299/tasks/abc299_e",
+    "submission_id": "AC43539852",
+    "submission_url": "https://atcoder.jp/contests/abc299/submissions/43539852",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/13/2023 23:40"
+  },
   "AC43540289": {
     "contest_id": "abc254",
     "language": "C++ (GCC 9.2.1)",
