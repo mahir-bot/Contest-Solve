@@ -1,4 +1,20 @@
 {
+  "AC43526878": {
+    "contest_id": "abc166",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc166\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "This Message Will Self-Destruct in 5s",
+    "problem_url": "https://atcoder.jp/contests/abc166/tasks/abc166_e",
+    "submission_id": "AC43526878",
+    "submission_url": "https://atcoder.jp/contests/abc166/submissions/43526878",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/13/2023 13:26"
+  },
   "AC43539852": {
     "contest_id": "abc299",
     "language": "C++ (GCC 9.2.1)",
