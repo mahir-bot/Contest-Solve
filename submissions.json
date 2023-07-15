@@ -1,4 +1,20 @@
 {
+  "AC43649510": {
+    "contest_id": "abc296",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc296\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Transition Game",
+    "problem_url": "https://atcoder.jp/contests/abc296/tasks/abc296_e",
+    "submission_id": "AC43649510",
+    "submission_url": "https://atcoder.jp/contests/abc296/submissions/43649510",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/15/2023 21:08"
+  },
   "AC43691437": {
     "contest_id": "abc294",
     "language": "C++ (GCC 9.2.1)",
