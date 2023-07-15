@@ -1,4 +1,20 @@
 {
+  "AC43576699": {
+    "contest_id": "abc297",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc297\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Kth Takoyaki Set",
+    "problem_url": "https://atcoder.jp/contests/abc297/tasks/abc297_e",
+    "submission_id": "AC43576699",
+    "submission_url": "https://atcoder.jp/contests/abc297/submissions/43576699",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/15/2023 14:32"
+  },
   "AC43649510": {
     "contest_id": "abc296",
     "language": "C++ (GCC 9.2.1)",
