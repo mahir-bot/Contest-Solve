@@ -15,7 +15,7 @@ using namespace std;
 // #define ull unsigned ll int
 #define EPS 0.00000001
 #define mod (int)1e9+7
-const int mx = 3e5+30;
+const int mx = 4e5+30;
 #define all(v) v.begin(), v.end()
 #define rall(v) v.rbegin(), v.rend()
 #define mem(a, x) memset(a, x, sizeof(a))
@@ -132,48 +132,24 @@ void loj()
 
 
 
-vii Tree(1200000);
 
-
-int query(int node, int b, int e, int i, int j)
-{
-    if (i > e || j < b)
-        return 0; //বাইরে চলে গিয়েছে
-    if (b >= i and j >= e)
-    {
-        return Tree[node]; //রিলেভেন্ট সেগমেন্ট
-    }
-
-    int left = node * 2; //আরো ভাঙতে হবে
-    int right = node * 2 + 1;
-    int mid = (b + e) / 2;
-
-    int leftQ = query(left, b, mid, i, j);
-    int rightQ = query(right, mid + 1, e, i, j);
-
-    return max(leftQ , rightQ); //বাম এবং ডান পাশের যোগফল
+vii seg(1200000) ;
+int query(int node, int st , int en , int  l , int r) {
+    if (st >=l && en <= r) return seg[node] ;
+    if (en < l or  st > r)return 0 ;
+    int mid = (st + en)/2 ;
+    return max(query(2*node, st , mid  , l,r)  , query(2*node+1 ,mid+1 , en , l , r)) ;
 }
-
-void update(int node, int b, int e, int i, int val)
-{
-
-    if (b == e)
-    {
-        Tree[node] = val; //রিলেভেন্ট সেগমেন্ট
-        return;
+void update(int node, int st , int en , int  pos , int val) {
+    if (st == en) {
+        seg[node] =  val ;
+        return ;
     }
-
-    int left = node * 2; //আরো ভাঙতে হবে
-    int right = node * 2 + 1;
-    int mid = (b + e) / 2;
-    if (i<=mid)
-        update(left, b, mid, i, val);
-    else
-        update(right, mid + 1, e, i, val);
-    Tree[node] = max(Tree[left] , Tree[right]);
+    int mid = (st+en)/2 ;
+    if (pos <= mid)update(2*node, st,mid,pos,val) ;
+    else update(2*node +1 , mid+1 , en ,pos ,val) ;
+    seg[node] = max(seg[2*node] , seg[2*node+1]) ;
 }
-
-
 
 void solve()
 {
