@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-#pragma GCC optimize("O3,unroll-loops")
-#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+// #pragma GCC optimize("O3,unroll-loops")
+// #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 
 // using u128 = __int128;
 #define FIO                       \
@@ -190,7 +190,7 @@ struct ST {
     {
         if (i < b or i > e)
             return; //বাইরে চলে গিয়েছে
-        if (b >= i and e <= i)
+        if (b == i and e == i)
         {
             Tree[node].clear();
             Tree[node].insert(val); //রিলেভেন্ট সেগমেন্ট
