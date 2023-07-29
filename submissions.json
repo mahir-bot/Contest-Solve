@@ -1,4 +1,20 @@
 {
+  "AC44034167": {
+    "contest_id": "abc312",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc312\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Chord",
+    "problem_url": "https://atcoder.jp/contests/abc312/tasks/abc312_a",
+    "submission_id": "AC44034167",
+    "submission_url": "https://atcoder.jp/contests/abc312/submissions/44034167",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/29/2023 18:02"
+  },
   "AC44050828": {
     "contest_id": "abc312",
     "language": "C++ (GCC 9.2.1)",
