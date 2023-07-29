@@ -1,4 +1,20 @@
 {
+  "AC44026109": {
+    "contest_id": "abc311",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc311\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Defect-free Squares",
+    "problem_url": "https://atcoder.jp/contests/abc311/tasks/abc311_e",
+    "submission_id": "AC44026109",
+    "submission_url": "https://atcoder.jp/contests/abc311/submissions/44026109",
+    "tags": [
+      "AtCoder",
+      "*475"
+    ],
+    "timestamp": "Jul/29/2023 13:27"
+  },
   "AC44030125": {
     "contest_id": "abc311",
     "language": "C++ (GCC 9.2.1)",
