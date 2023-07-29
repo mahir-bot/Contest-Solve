@@ -1,4 +1,20 @@
 {
+  "AC44091384": {
+    "contest_id": "abc312",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc312\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Count Bracket Sequences",
+    "problem_url": "https://atcoder.jp/contests/abc312/tasks/abc312_d",
+    "submission_id": "AC44091384",
+    "submission_url": "https://atcoder.jp/contests/abc312/submissions/44091384",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/30/2023 02:02"
+  },
   "AC44099923": {
     "contest_id": "abc310",
     "language": "C++ (GCC 9.2.1)",
