@@ -1,4 +1,20 @@
 {
+  "AC44030125": {
+    "contest_id": "abc311",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc311\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Grid Ice Floor",
+    "problem_url": "https://atcoder.jp/contests/abc311/tasks/abc311_d",
+    "submission_id": "AC44030125",
+    "submission_url": "https://atcoder.jp/contests/abc311/submissions/44030125",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/29/2023 16:41"
+  },
   "AC44034167": {
     "contest_id": "abc312",
     "language": "C++ (GCC 9.2.1)",
