@@ -1,4 +1,20 @@
 {
+  "AC44050828": {
+    "contest_id": "abc312",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc312\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "TaK Code",
+    "problem_url": "https://atcoder.jp/contests/abc312/tasks/abc312_b",
+    "submission_id": "AC44050828",
+    "submission_url": "https://atcoder.jp/contests/abc312/submissions/44050828",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/29/2023 18:28"
+  },
   "AC44083605": {
     "contest_id": "abc312",
     "language": "C++ (GCC 9.2.1)",
