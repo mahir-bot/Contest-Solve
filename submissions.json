@@ -1,4 +1,20 @@
 {
+  "AC44090297": {
+    "contest_id": "abc312",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc312\\F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Cans and Openers",
+    "problem_url": "https://atcoder.jp/contests/abc312/tasks/abc312_f",
+    "submission_id": "AC44090297",
+    "submission_url": "https://atcoder.jp/contests/abc312/submissions/44090297",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/29/2023 23:54"
+  },
   "AC44091384": {
     "contest_id": "abc312",
     "language": "C++ (GCC 9.2.1)",
