@@ -7,7 +7,7 @@ using namespace std;
     cout.tie(0);
 #define pi acos(-1.0)
 #define ll long long
-#define int  ll
+#define int unsigned ll
 // #define ull unsigned ll int
 // #define int ll
 #define EPS 0.00000001
@@ -76,11 +76,11 @@ using namespace std;
 template <class T>
 istream &operator>>(istream &is, vector<T> &input)
 {
-    for (T &in : input)
-    {
-        is >> in;
-    }
-    return is;
+	for (T &in : input)
+	{
+		is >> in;
+	}
+	return is;
 }
 // template <class T> inline T bigmod(T p, T e, T M) {
 //     ll ret = 1;
@@ -150,89 +150,40 @@ istream &operator>>(istream &is, vector<T> &input)
 
 
 
+vector<string>v;
+int a, b;
+bool vis[1000][1000];
 int ans[1000][1000];
+int go(int x, int y)
+{
+	if (x >= a || y >= b || v[x][y] == '#')
+		return 0;
+
+
+
+
+	if (vis[x][y])
+		return ans[x][y];
+
+	vis[x][y] = true;
+	ans[x][y] =  max(go(x, y + 1), go(x + 1, y)) + 1;
+	return ans[x][y];
+
+}
 
 void solve()
 {
 
-    int a, b;
-    cin >> a >> b;
-    vector<string>v;
-    v.resize(a);
 
-    for (int i = 0; i < a; i++)
-    {
-        cin >> v[i];
+	cin >> a >> b;
+	v.resize(a);
 
-        // cout << v[i] << nl;
-    }
-
-    int ok = 0;
-    for (int i = 0; i < a; i++)
-    {
-
-        for (int j = 0; j < b; j++)
-        {
-            ans[i][j] = 0;
-
-            if (v[i][j] == '.')
-            {
-                if (i > 0 and j > 0)
-                {
-                    if (v[i - 1][j] == '#' and v[i][j - 1] == '#')
-                    {
-                        v[i][j] = '#';
-                        continue;
-                    }
-                    ans[i][j] = max((i > 0 ? ans[i - 1][j] : 0), (j  > 0 ? ans[i][j - 1] : 0)) + 1;
-                    // cout << i << " " << j << " " << ans[i][j] << nl;
-                }
-                else if (i == 0)
-                {
-                    if (v[i][j - 1] == '#')
-                    {
-                        v[i][j] = '#';
-                        continue;
-                    }
-                    ans[i][j] = max((i > 0 ? ans[i - 1][j] : 0), (j  > 0 ? ans[i][j - 1] : 0)) + 1;
-                }
-                else if (j == 0)
-                {
-                    if (v[i - 1][j] == '#')
-                    {
-                        v[i][j] = '#';
-                        continue;
-                    }
-                    ans[i][j] = max((i > 0 ? ans[i - 1][j] : 0), (j  > 0 ? ans[i][j - 1] : 0)) + 1;
-                }
-                else
-                {
-                    ans[i][j] = max((i > 0 ? ans[i - 1][j] : 0), (j  > 0 ? ans[i][j - 1] : 0)) + 1;
-                }
-            }
+	for (int i = 0; i < a; i++)
+		cin >> v[i];
 
 
 
-            // cout << v[i][j] << " ";
-
-            // cout << ans[i][j] << " ";
-
-            ok = max(ok, ans[i][j]);
-
-
-        }
-        // cout << nl;
-    }
-
-    // ans[0][0] = 1;
-    // for (int i = 1; i <= a; i++) {
-    //     for (int j = 1; j <= b; j++) {
-    //         ans[i][j] = max(ans[i - 1][j], ans[i][j - 1]) + 1;
-    //     }
-    // }
-
-    cout << ok << nl;
-
+	cout << go(0, 0) << nl;
 
 
 }
@@ -242,15 +193,15 @@ void solve()
 
 signed main()
 {
-    // freopen("bad-memes.in", "r", stdin);
-    FIO;
-    // sublime();
+	// freopen("bad-memes.in", "r", stdin);
+	FIO;
+	// sublime();
 
 
-    // int a ;
-    // cin >> a;
-    // while (a--)
-    solve();
+	// int a ;
+	// cin >> a;
+	// while (a--)
+	solve();
 
 
 }
