@@ -1,4 +1,20 @@
 {
+  "AC44099923": {
+    "contest_id": "abc310",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc310\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Order Something Else",
+    "problem_url": "https://atcoder.jp/contests/abc310/tasks/abc310_a",
+    "submission_id": "AC44099923",
+    "submission_url": "https://atcoder.jp/contests/abc310/submissions/44099923",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/30/2023 11:20"
+  },
   "AC44100732": {
     "contest_id": "abc310",
     "language": "C++ (GCC 9.2.1)",
