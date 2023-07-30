@@ -1,4 +1,20 @@
 {
+  "AC44100732": {
+    "contest_id": "abc310",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc310\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Strictly Superior",
+    "problem_url": "https://atcoder.jp/contests/abc310/tasks/abc310_b",
+    "submission_id": "AC44100732",
+    "submission_url": "https://atcoder.jp/contests/abc310/submissions/44100732",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/30/2023 11:48"
+  },
   "AC44101321": {
     "contest_id": "abc310",
     "language": "C++ (GCC 9.2.1)",
