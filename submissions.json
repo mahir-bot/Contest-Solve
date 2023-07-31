@@ -1,4 +1,20 @@
 {
+  "AC44133451": {
+    "contest_id": "abc094",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc094\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Binomial Coefficients",
+    "problem_url": "https://atcoder.jp/contests/abc094/tasks/arc095_b",
+    "submission_id": "AC44133451",
+    "submission_url": "https://atcoder.jp/contests/abc094/submissions/44133451",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/31/2023 13:38"
+  },
   "AC44138146": {
     "contest_id": "abc226",
     "language": "C++ (GCC 9.2.1)",
