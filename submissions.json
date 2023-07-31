@@ -1,4 +1,20 @@
 {
+  "AC44138146": {
+    "contest_id": "abc226",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc226\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Teleportation",
+    "problem_url": "https://atcoder.jp/contests/abc226/tasks/abc226_d",
+    "submission_id": "AC44138146",
+    "submission_url": "https://atcoder.jp/contests/abc226/submissions/44138146",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/31/2023 17:15"
+  },
   "AC44155020": {
     "contest_id": "abc308",
     "language": "C++ (GCC 9.2.1)",
