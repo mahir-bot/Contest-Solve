@@ -1,4 +1,20 @@
 {
+  "AC44155020": {
+    "contest_id": "abc308",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc308\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Snuke Maze",
+    "problem_url": "https://atcoder.jp/contests/abc308/tasks/abc308_d",
+    "submission_id": "AC44155020",
+    "submission_url": "https://atcoder.jp/contests/abc308/submissions/44155020",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/01/2023 12:11"
+  },
   "AC44161294": {
     "contest_id": "abc309",
     "language": "C++ (GCC 9.2.1)",
