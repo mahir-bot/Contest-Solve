@@ -150,9 +150,11 @@ void loj()
 int a,b;
 
 int dp[1000][50000];
+int mark[1000][50000];
+
 
 vip v;
-void go(int i,int sum,string ans)
+int go(int i,int sum)
 {
 
     if (i==a)
@@ -160,24 +162,50 @@ void go(int i,int sum,string ans)
         // cout<<i<<" "<<sum<<" "<<ans<<nl;
         if (sum==b)
         {
-            cout<<"Yes"<<nl;
-            cout<<ans<<nl;
-            exit(0);
+            return 1;
         }
-        return;
+        return 0;
     }
     if (sum>b)
+        return 0;
+
+    if (dp[i][sum]!=-1)
+        return dp[i][sum];
+
+
+    int x = 0,y= 0;
+    x = go(i+1,sum+v[i].ff);
+
+    y = go(i+1,sum+v[i].ss);
+    if (x)
+        mark[i][sum] = 1;
+    if (y)
+        mark[i][sum] = 2;
+
+    return dp[i][sum]=x|y;
+
+}
+
+void path(int i,int sum)
+{
+    if (i==a)
+    {
         return;
-    if (dp[i][sum])
+    }
+
+    if (sum>b)
         return;
-    dp[i][sum] = 1;
 
-
-    go(i+1,sum+v[i].ff,ans=ans+'H');
-    ans.pop_back();
-    go(i+1,sum+v[i].ss,ans=ans+'T');
-    ans.pop_back();
-
+    if (mark[i][sum]==1)
+    {
+        cout<<'H';
+        path(i+1,sum+v[i].ff);
+    }
+    else
+    {
+        cout<<'T';
+        path(i+1,sum+v[i].ss);
+    }
 }
 
 
@@ -189,8 +217,15 @@ void solve()
 
     v.resize(a);
     cin>>v;
+    memset(dp,-1,sizeof dp);
     string s = "";
-    go(0,0,s);
+    if (go(0,0))
+    {
+        cout<<"Yes"<<nl;
+        path(0,0);
+        cout<<nl;
+        return;
+    }
     cout<<"No"<<nl;
 
 

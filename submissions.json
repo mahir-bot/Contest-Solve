@@ -1,4 +1,20 @@
 {
+  "AC44189104": {
+    "contest_id": "abc271",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc271\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Flip and Adjust",
+    "problem_url": "https://atcoder.jp/contests/abc271/tasks/abc271_d",
+    "submission_id": "AC44189104",
+    "submission_url": "https://atcoder.jp/contests/abc271/submissions/44189104",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/02/2023 20:31"
+  },
   "AC44189169": {
     "contest_id": "abc271",
     "language": "C++ (GCC 9.2.1)",
