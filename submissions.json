@@ -1,4 +1,20 @@
 {
+  "AC44192451": {
+    "contest_id": "abc269",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc269\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Do use hexagon grid",
+    "problem_url": "https://atcoder.jp/contests/abc269/tasks/abc269_d",
+    "submission_id": "AC44192451",
+    "submission_url": "https://atcoder.jp/contests/abc269/submissions/44192451",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/03/2023 00:24"
+  },
   "AC44192657": {
     "contest_id": "abc268",
     "language": "C++ (GCC 9.2.1)",
