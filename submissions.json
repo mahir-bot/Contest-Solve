@@ -1,4 +1,20 @@
 {
+  "AC44206539": {
+    "contest_id": "abc266",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc266\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Snuke Panic (1D)",
+    "problem_url": "https://atcoder.jp/contests/abc266/tasks/abc266_d",
+    "submission_id": "AC44206539",
+    "submission_url": "https://atcoder.jp/contests/abc266/submissions/44206539",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/03/2023 16:21"
+  },
   "AC44208393": {
     "contest_id": "abc262",
     "language": "C++ (GCC 9.2.1)",
