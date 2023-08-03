@@ -1,4 +1,20 @@
 {
+  "AC44214215": {
+    "contest_id": "abc260",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc260\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Draw Your Cards",
+    "problem_url": "https://atcoder.jp/contests/abc260/tasks/abc260_d",
+    "submission_id": "AC44214215",
+    "submission_url": "https://atcoder.jp/contests/abc260/submissions/44214215",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/03/2023 21:39"
+  },
   "AC44214571": {
     "contest_id": "agc021",
     "language": "C++ (GCC 9.2.1)",
