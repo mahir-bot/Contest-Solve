@@ -1,4 +1,20 @@
 {
+  "AC44215970": {
+    "contest_id": "abc148",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc148\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Brick Break",
+    "problem_url": "https://atcoder.jp/contests/abc148/tasks/abc148_d",
+    "submission_id": "AC44215970",
+    "submission_url": "https://atcoder.jp/contests/abc148/submissions/44215970",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/04/2023 00:19"
+  },
   "AC44216031": {
     "contest_id": "abc174",
     "language": "C++ (GCC 9.2.1)",
