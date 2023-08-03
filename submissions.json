@@ -1,4 +1,20 @@
 {
+  "AC44214571": {
+    "contest_id": "agc021",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\agc021\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Digit Sum 2",
+    "problem_url": "https://atcoder.jp/contests/agc021/tasks/agc021_a",
+    "submission_id": "AC44214571",
+    "submission_url": "https://atcoder.jp/contests/agc021/submissions/44214571",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2023 22:04"
+  },
   "AC44215970": {
     "contest_id": "abc148",
     "language": "C++ (GCC 9.2.1)",
