@@ -1,4 +1,20 @@
 {
+  "AC44212365": {
+    "contest_id": "abc261",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc261\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Flipping and Bonus",
+    "problem_url": "https://atcoder.jp/contests/abc261/tasks/abc261_d",
+    "submission_id": "AC44212365",
+    "submission_url": "https://atcoder.jp/contests/abc261/submissions/44212365",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/03/2023 20:13"
+  },
   "AC44214215": {
     "contest_id": "abc260",
     "language": "C++ (GCC 9.2.1)",
