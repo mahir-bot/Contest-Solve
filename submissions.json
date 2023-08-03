@@ -1,4 +1,20 @@
 {
+  "AC44216031": {
+    "contest_id": "abc174",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc174\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Alter Altar",
+    "problem_url": "https://atcoder.jp/contests/abc174/tasks/abc174_d",
+    "submission_id": "AC44216031",
+    "submission_url": "https://atcoder.jp/contests/abc174/submissions/44216031",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/04/2023 00:28"
+  },
   "AC44216192": {
     "contest_id": "abc185",
     "language": "C++ (GCC 9.2.1)",
