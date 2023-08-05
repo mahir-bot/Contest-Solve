@@ -1,4 +1,20 @@
 {
+  "AC44317241": {
+    "contest_id": "abc187",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc187\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Choose Me",
+    "problem_url": "https://atcoder.jp/contests/abc187/tasks/abc187_d",
+    "submission_id": "AC44317241",
+    "submission_url": "https://atcoder.jp/contests/abc187/submissions/44317241",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/06/2023 01:51"
+  },
   "AC44327105": {
     "contest_id": "abc173",
     "language": "C++ (GCC 9.2.1)",
