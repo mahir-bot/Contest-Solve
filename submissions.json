@@ -1,4 +1,20 @@
 {
+  "AC44293757": {
+    "contest_id": "abc313",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc313\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Who is Saikyo?",
+    "problem_url": "https://atcoder.jp/contests/abc313/tasks/abc313_b",
+    "submission_id": "AC44293757",
+    "submission_url": "https://atcoder.jp/contests/abc313/submissions/44293757",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/05/2023 19:05"
+  },
   "AC44315788": {
     "contest_id": "abc313",
     "language": "C++ (GCC 9.2.1)",
