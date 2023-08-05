@@ -1,4 +1,20 @@
 {
+  "AC44257053": {
+    "contest_id": "abc313",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc313\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "To Be Saikyo",
+    "problem_url": "https://atcoder.jp/contests/abc313/tasks/abc313_a",
+    "submission_id": "AC44257053",
+    "submission_url": "https://atcoder.jp/contests/abc313/submissions/44257053",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/05/2023 18:02"
+  },
   "AC44293757": {
     "contest_id": "abc313",
     "language": "C++ (GCC 9.2.1)",
