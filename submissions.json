@@ -1,4 +1,20 @@
 {
+  "AC44316980": {
+    "contest_id": "abc149",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc149\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Prediction and Restriction",
+    "problem_url": "https://atcoder.jp/contests/abc149/tasks/abc149_d",
+    "submission_id": "AC44316980",
+    "submission_url": "https://atcoder.jp/contests/abc149/submissions/44316980",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/06/2023 01:08"
+  },
   "AC44317241": {
     "contest_id": "abc187",
     "language": "C++ (GCC 9.2.1)",
