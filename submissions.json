@@ -1,4 +1,20 @@
 {
+  "AC44332984": {
+    "contest_id": "abc125",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc125\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Flipping Signs",
+    "problem_url": "https://atcoder.jp/contests/abc125/tasks/abc125_d",
+    "submission_id": "AC44332984",
+    "submission_url": "https://atcoder.jp/contests/abc125/submissions/44332984",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/06/2023 15:38"
+  },
   "AC44346167": {
     "contest_id": "m-solutions2020",
     "language": "C++ (GCC 9.2.1)",
