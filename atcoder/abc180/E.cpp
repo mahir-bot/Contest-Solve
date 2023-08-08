@@ -118,53 +118,62 @@ int a;
 int x[100], y[100], z[100];
 
 int dp[(1 << 17) + 1000][20];
-
-int cost(int i, int j)
+int totalMask;
+int k = 100;
+int go(int mask, int lastIdx)
 {
-    int sum = abs(x[i] - x[j]) + abs(y[i] - y[j]) + max(0LL, z[j] - z[i]);
-    return sum;
+
+    //  cout<<mask<<" "<<lastIdx<<nl;
+    //     k--;
+    //     if(k==0)
+    //     {
+    //         exit(0);
+    //     }
+    // cout<<mask<<nl;
+    if (mask == totalMask)
+    {
+
+        int cost = abs(x[0] - x[lastIdx]) + abs(y[0] - y[lastIdx]) + max(0LL, (z[0] - z[lastIdx]));
+        return cost;
+    }
+    
+    if (dp[mask][lastIdx] != -1)
+    {
+        // cout<<ans<<nl;
+          return dp[mask][lastIdx];
+    }
+      
+    dp[mask][lastIdx] = (ll)1e17;
+   
+    for (int i = 0; i < a; i++)
+    {   
+
+        if(lastIdx==i)
+        continue;
+         
+        int val = abs(x[i] - x[lastIdx]) + abs(y[i] - y[lastIdx]) + max(0LL, (z[i] - z[lastIdx]));
+        dp[mask][lastIdx] = min(dp[mask][lastIdx], go(mask | (1 << i), i) + val);
+    }
+
+    return dp[mask][lastIdx] ;
 }
 
 void solve()
 {
+    
     cin >> a;
+
+    totalMask = (1 << a) - 1;
     for (int i = 0; i < a; i++)
     {
         cin >> x[i] >> y[i] >> z[i];
     }
 
-    for (int i = 0; i < (1 << a); i++)
-        for (int j = 0; j < a; j++)
-        {
-            dp[i][j] = 1e17;
-        }
+    memset(dp, -1, sizeof dp);
 
-    for (int i = 0; i < a; i++)
-    {
-        dp[1 | (1 << i)][i] = cost(0, i);
-        // cout << dp[1 | (1 << i)][i] << nl;
-    }
+    int val = 0;
 
-    for (int i = 0; i < (1 << a); i++)
-    {
-        for (int j = 0; j < a; j++)
-        {
-            if (isOn(i, j))
-            {
-                for (int k = 0; k < a; k++)
-                {
-                    dp[i | (1 << k)][k] = min(dp[i | (1 << k)][k], dp[i][j] + cost(j, k));
-                }
-            }
-        }
-    }
-    int ans = 1e17;
-    for (int i = 0; i < a; i++)
-    {
-        ans = min(ans, dp[(1 << a) - 1][i] + cost(i, 0));
-    }
-
-    cout << ans << nl;
+    cout << go(0, 0) << nl;
 }
 
 signed main()
@@ -174,5 +183,5 @@ signed main()
     // int t;
     // cin >> t;
     // while (t--)
-    solve();
+        solve();
 }
