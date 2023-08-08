@@ -136,14 +136,14 @@ int go(int mask, int lastIdx)
         int cost = abs(x[0] - x[lastIdx]) + abs(y[0] - y[lastIdx]) + max(0LL, (z[0] - z[lastIdx]));
         return cost;
     }
-    
+     int &ans = dp[mask][lastIdx];
     if (dp[mask][lastIdx] != -1)
     {
         // cout<<ans<<nl;
           return dp[mask][lastIdx];
     }
       
-    dp[mask][lastIdx] = (ll)1e17;
+     ans = (ll)1e17;
    
     for (int i = 0; i < a; i++)
     {   
@@ -152,10 +152,10 @@ int go(int mask, int lastIdx)
         continue;
          
         int val = abs(x[i] - x[lastIdx]) + abs(y[i] - y[lastIdx]) + max(0LL, (z[i] - z[lastIdx]));
-        dp[mask][lastIdx] = min(dp[mask][lastIdx], go(mask | (1 << i), i) + val);
+        ans = min(ans, go(mask | (1 << i), i) + val);
     }
 
-    return dp[mask][lastIdx] ;
+    return ans;
 }
 
 void solve()
