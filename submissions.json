@@ -1,4 +1,20 @@
 {
+  "AC44443829": {
+    "contest_id": "abc100",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc100\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Patisserie ABC",
+    "problem_url": "https://atcoder.jp/contests/abc100/tasks/abc100_d",
+    "submission_id": "AC44443829",
+    "submission_url": "https://atcoder.jp/contests/abc100/submissions/44443829",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/10/2023 23:36"
+  },
   "AC44444804": {
     "contest_id": "abc103",
     "language": "C++ (GCC 9.2.1)",
