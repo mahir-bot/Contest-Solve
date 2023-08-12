@@ -1,4 +1,20 @@
 {
+  "AC44541859": {
+    "contest_id": "abc230",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc230\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Destroyer Takahashi",
+    "problem_url": "https://atcoder.jp/contests/abc230/tasks/abc230_d",
+    "submission_id": "AC44541859",
+    "submission_url": "https://atcoder.jp/contests/abc230/submissions/44541859",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/12/2023 23:08"
+  },
   "AC44542221": {
     "contest_id": "abc255",
     "language": "C++ (GCC 9.2.1)",
