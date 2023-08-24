@@ -5009,6 +5009,25 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF220220480": {
+    "contest_id": 1862,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1862\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ice Cream Balls",
+    "problem_url": "https://codeforces.com/contest/1862/problem/D",
+    "submission_id": "CF220220480",
+    "submission_url": "https://codeforces.com/contest/1862/submission/220220480",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Aug/24/2023 21:23"
+  },
   "CF220392514": {
     "contest_id": 727,
     "language": "C++20 (GCC 11-64)",
