@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF220831924": {
+    "contest_id": 1855,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1855\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dalton the Teacher",
+    "problem_url": "https://codeforces.com/contest/1855/problem/A",
+    "submission_id": "CF220831924",
+    "submission_url": "https://codeforces.com/contest/1855/submission/220831924",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/28/2023 15:31"
+  },
   "CF220832131": {
     "contest_id": 1855,
     "language": "C++20 (GCC 11-64)",
