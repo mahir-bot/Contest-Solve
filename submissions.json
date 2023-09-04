@@ -5009,6 +5009,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF221854202": {
+    "contest_id": 1853,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1853\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fibonaccharsis",
+    "problem_url": "https://codeforces.com/contest/1853/problem/B",
+    "submission_id": "CF221854202",
+    "submission_url": "https://codeforces.com/contest/1853/submission/221854202",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/05/2023 00:01"
+  },
   "CF222079292": {
     "contest_id": 1846,
     "language": "C++20 (GCC 11-64)",
