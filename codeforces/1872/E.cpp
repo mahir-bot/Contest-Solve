@@ -302,11 +302,6 @@ void solve()
 signed main()
 {
     FIO;
-    int x = 0;
-    for(int i = 0; i<2e18; i++)
-    {
-        x++;
-    }
     int t;
     cin >> t;
     while (t--)
