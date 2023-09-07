@@ -143,11 +143,11 @@ void push(int node, int lx, int rx)
     if (lx == rx) // node is the leaf
         return;
 
-    int mid = (lx + rx) >> 1;
     lazy[node * 2 ] ^= 1;
     lazy[node * 2 + 1 ] ^= 1;
 
 
+    lazy[node] = 0;
 
 }
 void init(int node, int b, int e)
@@ -174,51 +174,21 @@ void init(int node, int b, int e)
     one[node] = one[left] xor one[right];
 }
 
-// ll query(int node, int lx, int rx, int l, int r,int k)
-// {
-
-//     if (lazy[node] != 0)
-//     {
-//         push(node, lx, rx);
-//     }
-//     if (lx > r or rx < l)
-//         return 0; //বাইরে চলে গিয়েছে
-//     if (lx >= l and r >= rx)
-//     {
-//         cout<<l<<" "<<r<<" "<<node<<nl;
-//         if (k==0)
-//         {
-//             cout<<zero[node]<<nl;
-//             return zero[node]; //রিলেভেন্ট সেগমেন্ট
-//         }
-//         else
-//             return one[node];
-//     }
-
-//     int left = node * 2; //আরো ভাঙতে হবে
-//     int right = node * 2 + 1;
-//     int mid = (lx + rx) / 2;
-
-//     ll leftQ = query(left, lx, mid, l, r,k);
-//     ll rightQ = query(right, mid + 1, rx, l, r,k);
-
-//     return leftQ xor rightQ; //বাম এবং ডান পাশের যোগফল
-// }
 
 void update(int node, int lx, int rx, int l, int r)
 {
     if (lazy[node] != 0)
         push(node, lx, rx);
+
     if (lx > r or rx < l)
         return; //বাইরে চলে গিয়েছে
     if (lx >= l and rx <= r)
     {
-
         swap(zero[node],one[node]);
         if (lx!=rx)
         {
-            lazy[node*2+1] ^=1;
             lazy[node*2] ^= 1;
+            lazy[node*2+1] ^= 1;
         }
         return;
     }
@@ -226,6 +196,7 @@ void update(int node, int lx, int rx, int l, int r)
     int left = node * 2; //আরো ভাঙতে হবে
     int right = node * 2 + 1;
     int mid = (lx + rx) / 2;
+
     update(left, lx, mid, l, r);
     update(right, mid + 1, rx, l, r);
     // Tree[node] = Tree[left] + Tree[right];
