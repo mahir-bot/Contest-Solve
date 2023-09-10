@@ -5009,6 +5009,25 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF222755205": {
+    "contest_id": 1869,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1869\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "2D Traveling",
+    "problem_url": "https://codeforces.com/contest/1869/problem/B",
+    "submission_id": "CF222755205",
+    "submission_url": "https://codeforces.com/contest/1869/submission/222755205",
+    "tags": [
+      "geometry",
+      "math",
+      "shortest paths",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Sep/10/2023 20:52"
+  },
   "CF222781747": {
     "contest_id": 1869,
     "language": "C++20 (GCC 11-64)",
