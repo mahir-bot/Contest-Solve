@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF222781747": {
+    "contest_id": 1869,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1869\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fill in the Matrix",
+    "problem_url": "https://codeforces.com/contest/1869/problem/C",
+    "submission_id": "CF222781747",
+    "submission_url": "https://codeforces.com/contest/1869/submission/222781747",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/10/2023 21:46"
+  },
   "CF222865077": {
     "contest_id": 4,
     "language": "C++20 (GCC 11-64)",
