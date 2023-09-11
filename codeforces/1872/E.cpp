@@ -93,6 +93,35 @@ ostream &operator<<(ostream &os, const vector<pair<int, int>> &vec)
 
 
 
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/Tree_policy.hpp>
+// #include <ext/pb_ds/detail/standard_policies.hpp>
+// using namespace __gnu_pbds;
+// using namespace __gnu_cxx;
+
+// template <typename T>
+// using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// template <typename T>
+// using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
+// order_of_key(?) : return count of values which is < ?
+// find_by_order(?): access the ? index in set
+//__builtin_popcount
+
+
+// void sublime()
+// {
+// #ifndef ONLINE_JUDGE
+//     freopen("inputf.in", "r", stdin);
+//     freopen("outputf.out", "w", stdout);
+// #endif
+// }
+///////////////////////////////////////////////////////////////////////////
+//////////////////// DO NOT TOUCH BEFORE THIS LINE ////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+//NO FIO IN INTERACTIVE PROBLEM
+//PRINT FFLUSH(STDOUT) AND NEW LINE
+
 int bin[mx];
 int v[mx];
 
@@ -274,14 +303,9 @@ signed main()
 {
     FIO;
     int x = 0;
-    int y = 0;
-    int k = 0;
-    int var = 1e18;
-    for(int i = 0; i<var; i++)
+    for(int i = 0; i<10e18; i++)
     {
-        x = x+1;
-        y = y+1;
-        k = (x%mod * y%mod)%mod;
+        x++;
     }
     int t;
     cin >> t;
