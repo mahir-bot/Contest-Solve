@@ -276,7 +276,7 @@ signed main()
     int x = 0;
     int y = 0;
     int k = 0;
-    int var = 1e10;
+    int var = 1e18;
     for(int i = 0; i<var; i++)
     {
         x = x+1;
