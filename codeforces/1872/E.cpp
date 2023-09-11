@@ -303,7 +303,7 @@ signed main()
 {
     FIO;
     int x = 0;
-    for(int i = 0; i<10e18; i++)
+    for(int i = 0; i<2e18; i++)
     {
         x++;
     }
