@@ -149,7 +149,7 @@ signed main()
 {
     FIO;
     int p = 0;
-    for(int i = 0; i<1e18; i++)
+    for(int i = 0; i<1e9; i++)
     {
         p++;
     }
