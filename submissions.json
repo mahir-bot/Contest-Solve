@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF224411223": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1873\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Building an Aquarium",
+    "problem_url": "https://codeforces.com/contest/1873/problem/E",
+    "submission_id": "CF224411223",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224411223",
+    "tags": [
+      "binary search",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Sep/21/2023 21:30"
+  },
   "CF224478186": {
     "contest_id": 1873,
     "language": "C++20 (GCC 11-64)",
