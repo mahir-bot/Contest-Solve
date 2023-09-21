@@ -5009,6 +5009,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF224368086": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1873\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "1D Eraser",
+    "problem_url": "https://codeforces.com/contest/1873/problem/D",
+    "submission_id": "CF224368086",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224368086",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Sep/21/2023 21:02"
+  },
   "CF224411223": {
     "contest_id": 1873,
     "language": "C++20 (GCC 11-64)",
