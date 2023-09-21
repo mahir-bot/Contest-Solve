@@ -5009,6 +5009,25 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF224478186": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1873\\F.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Money Trees",
+    "problem_url": "https://codeforces.com/contest/1873/problem/F",
+    "submission_id": "CF224478186",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224478186",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Sep/21/2023 22:34"
+  },
   "CF225098766": {
     "contest_id": 1882,
     "language": "C++20 (GCC 11-64)",
