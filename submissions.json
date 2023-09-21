@@ -5009,6 +5009,24 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF224320527": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1873\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Good Kid",
+    "problem_url": "https://codeforces.com/contest/1873/problem/B",
+    "submission_id": "CF224320527",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224320527",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/21/2023 20:39"
+  },
   "CF224359696": {
     "contest_id": 1873,
     "language": "C++20 (GCC 11-64)",
