@@ -5009,6 +5009,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF226571817": {
+    "contest_id": 1879,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1879\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rigged!",
+    "problem_url": "https://codeforces.com/contest/1879/problem/A",
+    "submission_id": "CF226571817",
+    "submission_url": "https://codeforces.com/contest/1879/submission/226571817",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Oct/04/2023 16:34"
+  },
   "CF226573085": {
     "contest_id": 1879,
     "language": "C++20 (GCC 11-64)",
