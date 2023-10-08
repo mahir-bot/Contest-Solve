@@ -5009,6 +5009,23 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF227175115": {
+    "contest_id": 1877,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1877\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Joyboard",
+    "problem_url": "https://codeforces.com/contest/1877/problem/C",
+    "submission_id": "CF227175115",
+    "submission_url": "https://codeforces.com/contest/1877/submission/227175115",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Oct/08/2023 17:02"
+  },
   "CF227500967": {
     "contest_id": 727,
     "language": "C++20 (GCC 11-64)",
