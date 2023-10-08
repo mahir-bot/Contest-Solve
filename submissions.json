@@ -5009,6 +5009,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF227117108": {
+    "contest_id": 1877,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1877\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Goals of Victory",
+    "problem_url": "https://codeforces.com/contest/1877/problem/A",
+    "submission_id": "CF227117108",
+    "submission_url": "https://codeforces.com/contest/1877/submission/227117108",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/08/2023 15:08"
+  },
   "CF227143778": {
     "contest_id": 1877,
     "language": "C++20 (GCC 11-64)",
