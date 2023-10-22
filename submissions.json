@@ -5009,6 +5009,22 @@
     ],
     "timestamp": "Jun/11/2022 12:59"
   },
+  "CF229210633": {
+    "contest_id": 1883,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1883\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Morning",
+    "problem_url": "https://codeforces.com/contest/1883/problem/A",
+    "submission_id": "CF229210633",
+    "submission_url": "https://codeforces.com/contest/1883/submission/229210633",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/22/2023 17:14"
+  },
   "CF229220660": {
     "contest_id": 1883,
     "language": "C++20 (GCC 11-64)",
